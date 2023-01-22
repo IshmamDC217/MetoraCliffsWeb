@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Typewriter from "typewriter-effect"
 
 const Banner = () => {
@@ -11,7 +10,7 @@ const Banner = () => {
         <div className='max-w-[450px] text-white flex flex-col gap[40px]'>
 
           <div>
-            <h1 className='text-5xl'>We are Metora Cliffs</h1>
+            <h1 className="text-5xl">We are Metora Cliffs</h1>
             <h4 className='text-2xl mt-3'>
             <Typewriter
               options={{
