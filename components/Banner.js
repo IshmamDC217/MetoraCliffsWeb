@@ -18,7 +18,8 @@ const Banner = () => {
                 strings: [
                   "Leeds-based",
                   "Progressive Rock Band",
-                  "Video Game Metal"
+                  "Video Game Metal",
+                  "D J E N T"
                 ],
                 changeDelay: 3,
                 changeDeleteSpeed: 2,
@@ -29,7 +30,7 @@ const Banner = () => {
             </h4>
           </div>
           <p>&nbsp;</p>
-          <div className='bg-[#834333] h-[4px] w-[250px]'></div> <p>&nbsp;</p>
+          <div className='bg-[#834333] h-[4px] w-[250px] ml-4'></div> <p>&nbsp;</p>
           <div className='px-4'> <p>Cited as one of the bands of all time in Leeds.</p>
 
           </div>
