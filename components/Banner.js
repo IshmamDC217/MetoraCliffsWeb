@@ -39,7 +39,7 @@ const Banner = () => {
 
         </div>
       </div>
-      <a className='px-10'> <Image src={bannerpart} width="300px" height="300px" alt="Metora Cliffs" /> </a>
+      <a className='px-10'> <Image src={bannerpart} width="350px" height="300px" alt="Metora Cliffs" /> </a>
     </div>
   )
 }
