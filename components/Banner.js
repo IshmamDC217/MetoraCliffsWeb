@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import bannerpart from '../components/bannerpart.png'
 import Typewriter from "typewriter-effect"
+import Button from './Button';
 
 const Banner = () => {
   return (
@@ -30,8 +31,11 @@ const Banner = () => {
             </h4>
           </div>
           <p>&nbsp;</p>
-          <div className='bg-[#834333] h-[4px] w-[250px] ml-4'></div> <p>&nbsp;</p>
+          <div className='bg-[#105642] h-[4px] w-[250px] ml-4'></div> <p>&nbsp;</p>
           <div className='px-4'> <p>Cited as one of the bands of all time in Leeds.</p> 
+                <p>&nbsp;</p>
+                <Button link="#" text="Contact Us"/>
+
           </div>
         </div>
       </div>

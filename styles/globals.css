@@ -15,7 +15,23 @@ h1 {font-family: Adventure Subtitles;}
 p {font-family: Lucida Console;}
 
 @layer components {
-    .btn{
-        @apply bg-[#ffffff] text-white py-2 px-4 rounded inline-block mt-10 font-medium border border-[#ffffff] hover:bg-transparent hover:text-[#ffffff] transition duration-200
+    .btn {
+        background-color: #105642;
+        color: white;
+        padding: 4px;
+        padding-left: 4px;
+        border-radius: 5px;
+        font-weight: medium;
+        font-family: Adventure Subtitles;
+        border: 1px solid #000000;
+        transition: all 0.2s ease-in-out;
+        }
     }
-}
+
+@media (max-width: 600px) {
+    .bannerpart {
+        display: none;
+        }
+      }
+      
+      
