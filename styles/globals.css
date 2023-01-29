@@ -30,8 +30,13 @@ p {font-family: Lucida Console;}
 
 @media (max-width: 600px) {
     .bannerpart {
-        display: none;
-        }
-      }
-      
-      
+        display: none !important;
+    }
+    }
+    
+@media (min-width: 600px) {
+    .bannerpart {
+        display: block !important;
+    }
+    }
+    

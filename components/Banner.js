@@ -7,7 +7,7 @@ import Button from './Button';
 const Banner = () => {
   return (
     <div className='bg-[url("/metorabanner.jpg")] h-screen bg-cover bg-center bg-fixed flex items-center'>
-      <a className='px-4'> <Image src={bannerpart} width="300px" height="300px" alt="Metora Cliffs" /> </a>
+      <a className='px-4'> <Image src={bannerpart} width="300px" height="300px" alt="Metora Cliffs" className="bannerpart"/> </a>
       <div className='container mx-auto px-4'>
         <div className='max-w-[450px] text-white flex flex-col gap[40px]'>
           <div>
