@@ -11,6 +11,7 @@ const Banner = () => {
       <div className='container mx-auto px-4'>
         <div className='max-w-[450px] text-white flex flex-col gap[40px]'>
           <div>
+            <p>&nbsp;</p>
             <h2 className="text-4xl px-4">Welcome to</h2>
             <h1 className="text-5xl px-4">Metora Cliffs</h1>
             <h4 className='text-2xl mt-3 px-4'>
