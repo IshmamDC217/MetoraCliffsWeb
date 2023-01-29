@@ -28,7 +28,7 @@ const Work = () => {
           </a>
           
 
-          <a href="https://open.spotify.com/track/6QPgAgYlKjTrh6k0zd6rRZ?si=ROdex7jIRI-Wx3-MV9PLQA">
+          <a href="https://open.spotify.com/track/6oHSPd3M66yPemxkVyyf3E?si=Sh69_HdjQsqLuohlZgEhBg">
           <Image src={MOM} alt="Third Single" style={{width: '300px', height: '300px', margin: '10px'}}/>
             <div class="caption px-3">
               Mind Over Matter
