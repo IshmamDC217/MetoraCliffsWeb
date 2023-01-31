@@ -16,14 +16,14 @@ p {font-family: Lucida Console;}
 
 @layer components {
     .btn {
-        background-color: #105642;
+        background-color: #086a3e;
         color: white;
         padding: 4px;
         padding-left: 4px;
         border-radius: 5px;
         font-weight: medium;
         font-family: Adventure Subtitles;
-        border: 1px solid #000000;
+        border: 1px solid #086a3e;
         transition: all 0.2s ease-in-out;
         }
     }
@@ -41,19 +41,19 @@ p {font-family: Lucida Console;}
     }
     
 /* @layer components {
-    ...
 
     :root {
-        --bg-color: #105642;
+        --bg-color: #7aace8;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #000000;
+        --bg-color: #7aace8;
     }
 }
 
 body {
     background-color: var(--bg-color);
-} */
+}
+ */
