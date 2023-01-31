@@ -7,3 +7,6 @@ For this project I am using Next.js to create our portfolio, to showcase our mus
 
 
 Our website is designed to be user friendly and will feature our music, videos, and upcoming dates for our gigs in an easy to find format. We also plan to use our website to promote our music and allow fans to purchase our merchandise from the website.
+
+## Beta Sample
+<picture> <img align="centre" src="https://media.giphy.com/media/5i2a0A056A77nfH2LZ/giphy-downsized-large.gif" width = 550px></picture>
