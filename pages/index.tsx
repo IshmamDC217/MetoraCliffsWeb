@@ -7,6 +7,7 @@ import Work from "../components/Work"
 import AboutUs from "../components/AboutUs"
 import OurContent from "../components/OurContent"
 import Skills from "../components/Skills"
+import Gallery from "../components/Gallery"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,6 +31,7 @@ export default function Home() {
         <AboutUs/>
         <OurContent/>
         <Skills/>
+        <Gallery/>
       </main>
     </div>
   )

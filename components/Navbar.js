@@ -11,9 +11,15 @@ const Navbar = () => {
             <div className='container mx-auto flex justify-between items-center py-4 px-4 '  style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
                 <div className='max-w-xs'> <Image src={corner} width="300px" height="300px" alt="Metora Cliffs" /> </div>
                 <div className='hidden md:flex gap-6'>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
 
                     <Link href='/'>
                         Home
+                    </Link>
+
+                    <Link href='/'>
+                        Songs
                     </Link>
 
                     <Link href='/'>
@@ -25,15 +31,12 @@ const Navbar = () => {
                     </Link>
 
                     <Link href='/'>
-                        Blog
-                    </Link>
-
-                    <Link href='/'>
                         Contact
                     </Link>
                 </div>
+                <p>&nbsp;</p>
 
-                <a href="#" className='hidden md:flex border border-[#086a3e] px-4 py-1 text-[#000000] rounded-[5px] items-center gap-2
+                <a href="#" className='hidden md:flex border border-[#086a3e] px-3 py-2 text-[#000000] rounded-[3px] items-center gap-2
                                         hover:bg-[#086a3e] hover:text-white transition duration-200'>
                     Upcoming Gigs!
                     <BiImage />
