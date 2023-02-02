@@ -16,14 +16,14 @@ p {font-family: Lucida Console;}
 
 @layer components {
     .btn {
-        background-color: #086a3e;
+        background-color: #58629c;
         color: white;
         padding: 4px;
         padding-left: 4px;
         border-radius: 5px;
         font-weight: medium;
         font-family: Adventure Subtitles;
-        border: 1px solid #086a3e;
+        border: 1px solid #58629c;
         transition: all 0.2s ease-in-out;
         }
     }
@@ -40,19 +40,35 @@ p {font-family: Lucida Console;}
     }
     }
     
-/* @layer components {
+@layer components {
     :root {
-        --bg-color: #7aace8;
+        --bg-color: #5b9dc1;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #7aace8;
+        --bg-color: #5b9dc1;
     }
 }
 
 body {
     background-color: var(--bg-color);
 }
- */
+
+
+ /* @layer components {
+    :root {
+        --bg-color: #000000;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #000000;
+    }
+}
+
+body {
+    background-color: var(--bg-color);
+} */

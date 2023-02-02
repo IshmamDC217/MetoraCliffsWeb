@@ -8,7 +8,7 @@ const OurContent = () => {
             <Heading title="Our Content" />
             <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
 
-                <div className='shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#086a3e] text-white'>
+                <div className='shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#217ea0] text-white'>
 
                     <RiLightbulbFlashLine className='text-[28px]' />
 
@@ -18,7 +18,7 @@ const OurContent = () => {
 
                 </div>
 
-                <div className='shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#086a3e] text-white'>
+                <div className='shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#217ea0] text-white'>
 
                     <RiLightbulbFlashLine className='text-[28px]' />
 
@@ -28,7 +28,7 @@ const OurContent = () => {
 
                 </div>
 
-                <div className='shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#086a3e] text-white'>
+                <div className='shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#217ea0] text-white'>
 
                     <RiLightbulbFlashLine className='text-[28px]' />
 

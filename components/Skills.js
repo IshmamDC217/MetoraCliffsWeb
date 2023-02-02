@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Dylan from '../components/singles/Dylan.jpg'
 import Alexander from '../components/singles/Alexander.jpg'
 import Ish from '../components/singles/Ish.jpg'
-
 import Louis from '../components/singles/Louis.jpg'
 import Eddie from '../components/singles/Eddie.jpg'
 import Colebeta from '../components/singles/Colebeta.jpg'
@@ -30,7 +29,7 @@ const Skills = () => {
                             <div>
                                 <p>Chug</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[70%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[70%]'>
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +37,7 @@ const Skills = () => {
                             <div>
                                 <p>Shred</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[60%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[60%]'>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +45,7 @@ const Skills = () => {
                             <div>
                                 <p>Improv</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[95%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[95%]'>
                                     </div>
                                 </div>
                             </div>
@@ -54,7 +53,7 @@ const Skills = () => {
                             <div>
                                 <p>Fingering</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[100%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[100%]'>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +61,7 @@ const Skills = () => {
                             <div>
                                 <p>Groove</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[70%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[70%]'>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +69,7 @@ const Skills = () => {
                             <div>
                                 <p>Pinneapple on Pizza</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[0%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[0%]'>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +77,7 @@ const Skills = () => {
                             <div>
                                 <p>Chops</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[50%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[50%]'>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +85,7 @@ const Skills = () => {
                             <div>
                                 <p>Blast Beat</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[80%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[80%]'>
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +109,7 @@ const Skills = () => {
                             <div>
                                 <p>Chug</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[80%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[80%]'>
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +117,7 @@ const Skills = () => {
                             <div>
                                 <p>Shred</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[100%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[100%]'>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +125,7 @@ const Skills = () => {
                             <div>
                                 <p>Improv</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[90%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[90%]'>
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +133,7 @@ const Skills = () => {
                             <div>
                                 <p>Fingering</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[70%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[70%]'>
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +141,7 @@ const Skills = () => {
                             <div>
                                 <p>Groove</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[60%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[60%]'>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +149,7 @@ const Skills = () => {
                             <div>
                                 <p>Pinneapple on Pizza</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[100%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[100%]'>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +157,7 @@ const Skills = () => {
                             <div>
                                 <p>Chops</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[70%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[70%]'>
                                     </div>
                                 </div>
                             </div>
@@ -166,7 +165,7 @@ const Skills = () => {
                             <div>
                                 <p>Blast Beat</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[60%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[60%]'>
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +189,7 @@ const Skills = () => {
                             <div>
                                 <p>Chug</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[100%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[100%]'>
                                     </div>
                                 </div>
                             </div>
@@ -198,7 +197,7 @@ const Skills = () => {
                             <div>
                                 <p>Shred</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[80%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[80%]'>
                                     </div>
                                 </div>
                             </div>
@@ -206,7 +205,7 @@ const Skills = () => {
                             <div>
                                 <p>Improv</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[55%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[55%]'>
                                     </div>
                                 </div>
                             </div>
@@ -214,7 +213,7 @@ const Skills = () => {
                             <div>
                                 <p>Fingering</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[60%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[60%]'>
                                     </div>
                                 </div>
                             </div>
@@ -222,7 +221,7 @@ const Skills = () => {
                             <div>
                                 <p>Groove</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[50%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[50%]'>
                                     </div>
                                 </div>
                             </div>
@@ -230,7 +229,7 @@ const Skills = () => {
                             <div>
                                 <p>Pinneapple on Pizza</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[100%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[100%]'>
                                     </div>
                                 </div>
                             </div>
@@ -238,7 +237,7 @@ const Skills = () => {
                             <div>
                                 <p>Chops</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[60%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[60%]'>
                                     </div>
                                 </div>
                             </div>
@@ -246,7 +245,7 @@ const Skills = () => {
                             <div>
                                 <p>Blast Beat</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[40%]'>
+                                    <div className='bg-[#217ea0] absolute h-[6px] w-[40%]'>
                                     </div>
                                 </div>
                             </div>
@@ -270,7 +269,7 @@ const Skills = () => {
                             <div>
                                 <p>Chug</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[40%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[40%]'>
                                     </div>
                                 </div>
                             </div>
@@ -278,7 +277,7 @@ const Skills = () => {
                             <div>
                                 <p>Shred</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[40%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[40%]'>
                                     </div>
                                 </div>
                             </div>
@@ -286,7 +285,7 @@ const Skills = () => {
                             <div>
                                 <p>Improv</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[85%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[85%]'>
                                     </div>
                                 </div>
                             </div>
@@ -294,7 +293,7 @@ const Skills = () => {
                             <div>
                                 <p>Fingering</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[85%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[85%]'>
                                     </div>
                                 </div>
                             </div>
@@ -302,7 +301,7 @@ const Skills = () => {
                             <div>
                                 <p>Groove</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[90%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[90%]'>
                                     </div>
                                 </div>
                             </div>
@@ -310,7 +309,7 @@ const Skills = () => {
                             <div>
                                 <p>Pinneapple on Pizza</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[100%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[100%]'>
                                     </div>
                                 </div>
                             </div>
@@ -318,7 +317,7 @@ const Skills = () => {
                             <div>
                                 <p>Chops</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[85%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[85%]'>
                                     </div>
                                 </div>
                             </div>
@@ -326,7 +325,7 @@ const Skills = () => {
                             <div>
                                 <p>Blast Beat</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[100%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[100%]'>
                                     </div>
                                 </div>
                             </div>
@@ -350,7 +349,7 @@ const Skills = () => {
                             <div>
                                 <p>Chug</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[60%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[60%]'>
                                     </div>
                                 </div>
                             </div>
@@ -358,7 +357,7 @@ const Skills = () => {
                             <div>
                                 <p>Shred</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[65%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[65%]'>
                                     </div>
                                 </div>
                             </div>
@@ -366,7 +365,7 @@ const Skills = () => {
                             <div>
                                 <p>Improv</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[80%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[80%]'>
                                     </div>
                                 </div>
                             </div>
@@ -374,7 +373,7 @@ const Skills = () => {
                             <div>
                                 <p>Fingering</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[95%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[95%]'>
                                     </div>
                                 </div>
                             </div>
@@ -382,7 +381,7 @@ const Skills = () => {
                             <div>
                                 <p>Groove</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[100%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[100%]'>
                                     </div>
                                 </div>
                             </div>
@@ -390,7 +389,7 @@ const Skills = () => {
                             <div>
                                 <p>Pinneapple on Pizza</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[100%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[100%]'>
                                     </div>
                                 </div>
                             </div>
@@ -398,7 +397,7 @@ const Skills = () => {
                             <div>
                                 <p>Chops</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[75%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[75%]'>
                                     </div>
                                 </div>
                             </div>
@@ -406,7 +405,7 @@ const Skills = () => {
                             <div>
                                 <p>Blast Beat</p>
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#1db954] absolute h-[4px] w-[40%]'>
+                                    <div className='bg-[#217ea0] absolute h-[4px] w-[40%]'>
                                     </div>
                                 </div>
                             </div>
