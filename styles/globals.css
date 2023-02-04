@@ -59,7 +59,7 @@ body {
 
  /* @layer components {
     :root {
-        --bg-color: #000000;
+        --bg-color: #000000 black;
     }
 }
 
