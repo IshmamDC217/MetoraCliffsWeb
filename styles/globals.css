@@ -42,13 +42,13 @@ p {font-family: Lucida Console;}
     
 @layer components {
     :root {
-        --bg-color: #5b9dc1;
+        --bg-color: #7192bc; 
     }
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #5b9dc1;
+        --bg-color: #7192bc;
     }
 }
 
@@ -66,6 +66,7 @@ body {
 @media (prefers-color-scheme: dark) {
     :root {
         --bg-color: #000000;
+        #5b9dc1 blue
     }
 }
 
