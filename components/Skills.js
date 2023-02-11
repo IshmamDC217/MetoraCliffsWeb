@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Heading from './Heading'
 import Image from 'next/image'
 import Dylan from '../components/singles/Dylan.jpg'
@@ -9,6 +9,8 @@ import Eddie from '../components/singles/Eddie.jpg'
 import Colebeta from '../components/singles/Colebeta.jpg'
 
 const Skills = () => {
+    const [ishEasterEgg, setShowEasterEgg] = useState(false);
+
     return (
         <section className='container mx-auto py-10 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
 
@@ -130,10 +132,12 @@ const Skills = () => {
                                 </div>
                             </div>
                             <p>&nbsp;</p>
-                            <div>
+                            <div onMouseEnter={() => setShowEasterEgg(true)}
+                                onMouseLeave={() => setShowEasterEgg(false)}>
                                 <p>Fingering</p>
+                                {ishEasterEgg ? <p class="text-sm">unless it's my girlfriend, then 10/10 ;)</p> : null}
                                 <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                    <div className='bg-[#217ea0] absolute h-[6px] w-[70%]'>
+                                    <div className={`bg-[#217ea0] absolute h-[6px] w-[${ishEasterEgg ? "100%" : "70%"}]`}>
                                     </div>
                                 </div>
                             </div>
@@ -494,7 +498,7 @@ const Skills = () => {
                     <div className='flex items-center justify-between w-[300px]'>
                     </div>
                 </div>
-{/* 
+                {/* 
                 <div className='bg-[#000000] h-[2px] w-[100px] translate-y-1'></div>
                 <p>&nbsp;</p> */}
 
