@@ -1,18 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
     font-family: 'Adventure Subtitles';
     src: url('./fonts/adventure_subtitles/AdventureSubtitles.woff2');
 }
+
 html,
 body {
     padding: 0;
     margin: 0;
-    font-family:'Arial';
+    font-family: 'Arial';
 }
-h1 {font-family: Adventure Subtitles;}
-p {font-family: Lucida Console;}
+
+h1 {
+    font-family: Adventure Subtitles;
+}
+
+p {
+    font-family: Lucida Console;
+}
 
 @layer components {
     .btn {
@@ -25,21 +33,35 @@ p {font-family: Lucida Console;}
         font-family: Adventure Subtitles;
         border: 1px solid #58629c;
         transition: all 0.2s ease-in-out;
-        }
     }
+}
 
 @media (max-width: 600px) {
     .bannerpart {
         display: none !important;
     }
-    }
-    
+}
+
 @media (min-width: 600px) {
     .bannerpart {
         display: block !important;
     }
-    }
-    
+}
+
+body {
+    margin: 0;
+    background: #202731;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
 /* @layer components {
     :root {
         
@@ -59,7 +81,7 @@ body {
 } */
 
 
- /* @layer components {
+/* @layer components {
     :root {
         --bg-color: #000000 black;
     }

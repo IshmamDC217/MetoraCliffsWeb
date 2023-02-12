@@ -14,19 +14,19 @@ const Skills = () => {
     return (
         <section className='container mx-auto py-10 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
 
-            <Heading title="Skills & Attributes" />
+            <Heading title="Band Members & Stats" />
             <p>&nbsp;</p>
             <p className='text-gray-600 -mt-10 mb-1'>Each of us have unique skills and attributes blah blah</p>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-[50px]'>
+            <div className='text-[#ffffff] grid grid-cols-1 md:grid-cols-2 gap-[50px] mt-3'>
 
                 <div>
                     <a className='px-4'> <Image src={Dylan} width="350px" height="300px" alt="Single Shot" className="Dylan" /> </a>
                 </div>
                 <div>
                     <div className='max-w-[800px]'>
-                        <h2 className='font-bold mt-1 mb-10'> Dylan Tann</h2>
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                        <h2 className='text-xl font-bold mt-1 mb-10'> Dylan Tann</h2>
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 -mt-5'>
 
                             <div>
                                 <p>Chug</p>
@@ -105,8 +105,8 @@ const Skills = () => {
                 </div>
                 <div>
                     <div className='max-w-[800px]'>
-                        <h2 className='font-bold mt-1 mb-10'> Ish Ahmed</h2>
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                        <h2 className='text-xl font-bold mt-1 mb-10'> Ish Ahmed</h2>
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 -mt-5'>
 
                             <div>
                                 <p>Chug</p>
@@ -187,8 +187,8 @@ const Skills = () => {
                 </div>
                 <div>
                     <div className='max-w-[800px]'>
-                        <h2 className='font-bold mt-1 mb-10'> Alexander Kelk</h2>
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                        <h2 className='text-xl font-bold mt-1 mb-10'> Alexander Kelk</h2>
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 -mt-5'>
 
                             <div>
                                 <p>Chug</p>
@@ -267,8 +267,8 @@ const Skills = () => {
                 </div>
                 <div>
                     <div className='max-w-[800px]'>
-                        <h2 className='font-bold mt-1 mb-10'> Louis Walker</h2>
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                        <h2 className='text-xl font-bold mt-1 mb-10'> Louis Walker</h2>
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 -mt-5'>
 
                             <div>
                                 <p>Chug</p>
@@ -347,8 +347,8 @@ const Skills = () => {
                 </div>
                 <div>
                     <div className='max-w-[800px]'>
-                        <h2 className='font-bold mt-1 mb-10'> Eddie Hyndes</h2>
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                        <h2 className='text-xl font-bold mt-1 mb-10'> Eddie Hyndes</h2>
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 -mt-5'>
 
                             <div>
                                 <p>Chug</p>
@@ -427,8 +427,8 @@ const Skills = () => {
                 </div>
                 <div>
                     <div className='max-w-[800px]'>
-                        <h2 className='font-bold mt-1 mb-10'> Cole Dot Music</h2>
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                        <h2 className='text-xl font-bold mt-1 mb-10'> Cole Noonan</h2>
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 -mt-5'>
 
                             <div>
                                 <p>Chug</p>
