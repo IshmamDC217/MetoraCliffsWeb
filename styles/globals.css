@@ -15,7 +15,12 @@ body {
 }
 
 h1 {
+    color: white;
     font-family: Adventure Subtitles;
+}
+
+h2 {
+    color: white;
 }
 
 p {

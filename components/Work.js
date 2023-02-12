@@ -15,14 +15,14 @@ const Work = () => {
           <div style={{ display: 'flex', flexWrap: 'wrap' }}>
             <a class="scale-90 hover:scale-100 ease-in duration-200" href="https://open.spotify.com/track/6QPgAgYlKjTrh6k0zd6rRZ?si=ROdex7jIRI-Wx3-MV9PLQA">
               <Image src={MCMC} alt="Single" style={{ width: '300px', height: '300px', margin: '10px' }} />
-              <div class="caption px-3" style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
+              <div class="text-[#ffffff] caption px-3" style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
                 Mr. Crim.
               </div>
             </a>
 
             <a class="scale-90 hover:scale-100 ease-in duration-200" href="https://open.spotify.com/track/7M9MnPwrAdLsQTkLnVibiB?si=JI2txMgsQa-o2DLKzpJAZA">
               <Image src={ADWS} alt="Second Single" style={{ width: '300px', height: '300px', margin: '10px' }} />
-              <div class="caption px-3">
+              <div class="text-[#ffffff] caption px-3">
                 As Dawn Would Say
               </div>
             </a>
@@ -30,7 +30,7 @@ const Work = () => {
 
             <a class="scale-90 hover:scale-100 ease-in duration-200" href="https://open.spotify.com/track/6oHSPd3M66yPemxkVyyf3E?si=Sh69_HdjQsqLuohlZgEhBg">
               <Image src={MOM} alt="Third Single" style={{ width: '300px', height: '300px', margin: '10px' }} />
-              <div class="caption px-3">
+              <div class="text-[#ffffff] caption px-3">
                 Mind Over Matter
               </div>
             </a>

@@ -14,23 +14,23 @@ const Navbar = () => {
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
 
-                    <Link href='/'>
+                    <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
                         Home
                     </Link>
 
-                    <Link href='/'>
+                    <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
                         Songs
                     </Link>
 
-                    <Link href='/'>
+                    <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
                         About
                     </Link>
 
-                    <Link href='/'>
+                    <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
                         Gallery
                     </Link>
 
-                    <Link href='/'>
+                    <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
                         Contact
                     </Link>
                 </div>
