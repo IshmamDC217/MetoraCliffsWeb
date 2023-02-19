@@ -21,7 +21,6 @@ const AboutUs = () => {
         </div>
 
         <div>
-
           <div className='max-w-[800px]'>
           <p>&nbsp;</p>
             <h2 className='text-lg font-bold mt-1 mb-10'> A Progressive Rock band based in Leeds</h2>
