@@ -67,39 +67,43 @@ section {
     padding: 100px 20vw;
 }
 
-/* @layer components {
-    :root {
-        
-        --bg-color: #7192bc; 
-    }
+/* #image-track > .image{
+    width:40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-
-        --bg-color: #7192bc;
-    }
-}
-
-body {
-    background-color: var(--bg-color);
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute; left: 50%; top: 50%; transform: translate(0%, -50%);
 } */
 
-
-/* @layer components {
-    :root {
-        --bg-color: #000000 black;
-    }
+/* .Work {
+    background: #5f639c;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: #000000;
-        #5b9dc1 blue
-        #7192bc;
-    }
+.AboutUs {
+    background: #6f73a6;
 }
 
-body {
-    background-color: var(--bg-color);
+.OurContent {
+    background: #7f82b0;
+}
+
+.purple4 {
+    background: #8f92ba;
+}
+
+.purple5 {
+    background: #9fa1c4;
+}
+
+.purple6 {
+    background: #afb1ce;
+}
+
+.purple7 {
+    background: #bfc1d7;
 } */

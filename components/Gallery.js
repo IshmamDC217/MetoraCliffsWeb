@@ -29,7 +29,7 @@ const Gallery = () => {
             <div className='max-w-full grid grid-cols-6 gap-4'>
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='row-span-2 relative group'>
-                        <Image src={l} alt="" />
+                        <Image class="image" src={l} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -39,7 +39,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={c} alt="" />
+                        <Image class="image" src={c} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -48,7 +48,7 @@ const Gallery = () => {
                 </a>    
 
                 {/* <div className='relative group'>
-                    <Image src={ADWS} alt="" />
+                    <Image class="image" src={ADWS} alt="" />
                     <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                 group:hover:opacity-100 grid place_items-center text-white'>
                         Project TItle
@@ -56,7 +56,7 @@ const Gallery = () => {
                 </div> */}
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={MOM} alt="" />
+                        <Image class="image" src={MOM} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -65,7 +65,7 @@ const Gallery = () => {
                 </a>
 
                 {/* <div className='row-span-2 relative group'>
-                    <Image src={a} alt="" />
+                    <Image class="image" src={a} alt="" />
                     <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                 group:hover:opacity-100 grid place_items-center text-white'>
                         Project TItle
@@ -73,7 +73,7 @@ const Gallery = () => {
                 </div>
 
                 <div className='row-span-2 relative group'>
-                    <Image src={b} alt="" />
+                    <Image class="image" src={b} alt="" />
                     <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                 group:hover:opacity-100 grid place_items-center text-white'>
                         Project TItle
@@ -82,7 +82,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={d} alt="" />
+                        <Image class="image" src={d} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -92,7 +92,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={e} alt="" />
+                        <Image class="image" src={e} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -102,7 +102,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={f} alt="" />
+                        <Image class="image" src={f} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -112,7 +112,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={g} alt="" />
+                        <Image class="image" src={g} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -122,7 +122,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={h} alt="" />
+                        <Image class="image" src={h} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -132,7 +132,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={i} alt="" />
+                        <Image class="image" src={i} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -142,7 +142,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={j} alt="" />
+                        <Image class="image" src={j} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -152,7 +152,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={k} alt="" />
+                        <Image class="image" src={k} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -162,7 +162,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={MCMC} alt="" />
+                        <Image class="image" src={MCMC} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -172,7 +172,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200"> 
                     <div className='relative group'>
-                        <Image src={m} alt="" />
+                        <Image class="image" src={m} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -182,7 +182,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={n} alt="" />
+                        <Image class="image" src={n} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -192,7 +192,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={o} alt="" />
+                        <Image class="image" src={o} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -202,7 +202,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={p} alt="" />
+                        <Image class="image" src={p} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
@@ -212,7 +212,7 @@ const Gallery = () => {
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
                     <div className='relative group'>
-                        <Image src={q} alt="" />
+                        <Image class="image" src={q} alt="" />
                         <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
                             Project TItle
