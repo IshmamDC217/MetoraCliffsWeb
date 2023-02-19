@@ -22,7 +22,6 @@ const Banner = () => {
                     "Leeds-based",
                     "Progressive Rock Band",
                     "Video Game Metal",
-                    "D J E N T"
                   ],
                   changeDelay: 3,
                   changeDeleteSpeed: 2,
