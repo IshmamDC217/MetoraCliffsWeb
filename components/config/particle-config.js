@@ -3,7 +3,7 @@ const particlesconfig =
   autoPlay: true,
   background: {
     color: {
-      value: "12161c"
+      value: "#12161c"
     },
     image: "",
     position: "",
@@ -229,7 +229,7 @@ const particlesconfig =
       }
     },
     color: {
-      value: "#9da2ce",
+      value: "#ff0000",
       animation: {
         h: {
           count: 0,
@@ -257,7 +257,40 @@ const particlesconfig =
         }
       }
     },
-    groups: {},
+    groups: {
+      z5000: {
+        number: {
+          value: 70
+        },
+        zIndex: {
+          value: 50
+        }
+      },
+      z7500: {
+        number: {
+          value: 30
+        },
+        zIndex: {
+          value: 75
+        }
+      },
+      z2500: {
+        number: {
+          value: 50
+        },
+        zIndex: {
+          value: 25
+        }
+      },
+      z1000: {
+        number: {
+          value: 40
+        },
+        zIndex: {
+          value: 10
+        }
+      }
+    },
     move: {
       angle: {
         offset: 0,
@@ -354,11 +387,11 @@ const particlesconfig =
     },
     reduceDuplicates: false,
     shadow: {
-      blur: 9,
+      blur: 0,
       color: {
         value: "#000"
       },
-      enable: true,
+      enable: false,
       offset: {
         x: 0,
         y: 0
@@ -366,7 +399,7 @@ const particlesconfig =
     },
     shape: {
       options: {},
-      type: "triangle"
+      type: "circle"
     },
     size: {
       random: {
@@ -375,7 +408,7 @@ const particlesconfig =
       },
       value: {
         min: 1,
-        max: 5
+        max: 3
       },
       animation: {
         count: 0,
@@ -389,7 +422,7 @@ const particlesconfig =
       }
     },
     stroke: {
-      width: 6
+      width: 0
     },
     zIndex: {
       random: {
@@ -425,17 +458,14 @@ const particlesconfig =
         enable: false,
         minimumValue: 0
       },
-      value: {
-        min: 0,
-        max: 360
-      },
+      value: 0,
       animation: {
-        enable: true,
-        speed: 30,
+        enable: false,
+        speed: 0,
         decay: 0,
         sync: false
       },
-      direction: "random",
+      direction: "clockwise",
       path: false
     },
     destroy: {
@@ -466,37 +496,31 @@ const particlesconfig =
     },
     roll: {
       darken: {
-        enable: true,
-        value: 25
+        enable: false,
+        value: 0
       },
-      enable: true,
+      enable: false,
       enlighten: {
         enable: false,
         value: 0
       },
       mode: "vertical",
-      speed: {
-        min: 5,
-        max: 15
-      }
+      speed: 25
     },
     tilt: {
       random: {
         enable: false,
         minimumValue: 0
       },
-      value: {
-        min: 0,
-        max: 360
-      },
+      value: 0,
       animation: {
-        enable: true,
-        speed: 30,
+        enable: false,
+        speed: 0,
         decay: 0,
         sync: false
       },
-      direction: "random",
-      enable: true
+      direction: "clockwise",
+      enable: false
     },
     twinkle: {
       lines: {
@@ -511,13 +535,10 @@ const particlesconfig =
       }
     },
     wobble: {
-      distance: 30,
-      enable: true,
+      distance: 5,
+      enable: false,
       speed: {
-        angle: {
-          min: -7,
-          max: 7
-        },
+        angle: 50,
         move: 10
       }
     },
@@ -549,7 +570,7 @@ const particlesconfig =
       distance: 100,
       enable: true,
       frequency: 1,
-      opacity: 1,
+      opacity: 0.4,
       shadow: {
         blur: 5,
         color: {
