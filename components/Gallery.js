@@ -223,6 +223,7 @@ const Gallery = () => {
             </div>
 
         </section>
+        
     )
 }
 

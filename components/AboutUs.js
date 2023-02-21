@@ -16,8 +16,9 @@ const AboutUs = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
 
-        <div>
+        <div style={{display: 'flex', flexDirection: 'row'}}>   
           <a className='px-4'> <Image src={MCbandpic} width="400px" height="350px" alt="Band Pic" className="bandpic" /> </a>
+          {/* style={{marginLeft: "20px"}} style={{ display: 'flex', flexDirection: 'column' }}  */}
         </div>
 
         <div>
