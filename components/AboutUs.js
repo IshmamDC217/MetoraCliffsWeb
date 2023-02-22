@@ -16,14 +16,14 @@ const AboutUs = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
 
-        <div style={{display: 'flex', flexDirection: 'row'}}>   
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
           <a className='px-4'> <Image src={MCbandpic} width="400px" height="350px" alt="Band Pic" className="bandpic" /> </a>
           {/* style={{marginLeft: "20px"}} style={{ display: 'flex', flexDirection: 'column' }}  */}
         </div>
 
         <div>
           <div className='max-w-[800px]'>
-          <p>&nbsp;</p>
+            <p>&nbsp;</p>
             <h2 className='text-lg font-bold mt-1 mb-10'> A Progressive Rock band based in Leeds</h2>
             <p className='text-[#ffffff]'>Fusing Prog Rock/Metal with video game synth melodies, Metora Cliffs appeal to Prog fanatics and casual listeners alike. Taking inspiration from modern & classic prog/video game music composition like that of Nintendo & Sega, their live shows and 3 singles showcase their enticing sound. The band consists of Dylan Tann (vocals), Ivan Knight (keyboard), Ish Ahmed & Alexander Kelk (guitars), Eddie Hyndes (bass) & Louis Walker (drums).</p>
 

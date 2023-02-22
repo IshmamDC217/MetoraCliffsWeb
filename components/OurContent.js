@@ -16,12 +16,12 @@ const OurContent = () => {
             <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
                 <a class="scale-90 hover:scale-100 ease-in duration-200" href="https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6">
                     <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#e95550] text-white'>
-                        
+
                         <SiYoutubemusic className='text-[28px]' />
 
                         <h2 className='font-medium text-[28px]'>Music</h2>
                         <Image class="image" src={tm} alt="" />
-                        
+
                         <p>Our Originals</p>
                     </div>
                 </a>

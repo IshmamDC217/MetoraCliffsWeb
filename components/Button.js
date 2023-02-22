@@ -7,4 +7,3 @@ const Button = ({ text, link }) => {
 }
 
 export default Button
- 

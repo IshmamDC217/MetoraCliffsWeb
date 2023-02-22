@@ -28,24 +28,28 @@ const Gallery = () => {
             <Heading title="Gallery" />
             <div className='max-w-full grid grid-cols-6 gap-4'>
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='row-span-2 relative group'>
-                        <Image class="image" src={l} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='row-span-2 relative group'>
+                            <Image class="image" src={l} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
                 </a>
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={c} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={c} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
-                </a>    
+                </a>
 
                 {/* <div className='relative group'>
                     <Image class="image" src={ADWS} alt="" />
@@ -55,11 +59,13 @@ const Gallery = () => {
                     </div>
                 </div> */}
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={MOM} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={MOM} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
                 </a>
@@ -81,149 +87,176 @@ const Gallery = () => {
                 </div> */}
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={d} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={d} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
                 </a>
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={e} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={e} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
                 </a>
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={f} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={f} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
                 </a>
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={g} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={g} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
                 </a>
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={h} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={h} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
                 </a>
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={i} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={i} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
                 </a>
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={j} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={j} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
-                        </div>
-                    </div>
-                    </a>    
-
-                <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={k} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
-                    group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
                 </a>
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={MCMC} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={k} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
-                        </div>
-                    </div>
-                </a>    
-
-                <a class="scale-90 hover:scale-100 ease-in duration-200"> 
-                    <div className='relative group'>
-                        <Image class="image" src={m} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
-                    group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
-                        </div>
-                    </div>
-                </a>                    
-
-                <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={n} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
-                    group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
-                        </div>
-                    </div>
-                </a>    
-
-                <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={o} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
-                    group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
-                        </div>
-                    </div>
-                </a>    
-
-                <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={p} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
-                    group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
                 </a>
 
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='relative group'>
-                        <Image class="image" src={q} alt="" />
-                        <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={MCMC} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
                     group:hover:opacity-100 grid place_items-center text-white'>
-                            Project TItle
+                                Project TItle
+                            </div>
                         </div>
                     </div>
                 </a>
 
+                <a class="scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={m} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project TItle
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={n} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project TItle
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={o} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project TItle
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={p} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project TItle
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#12161c] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={q} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project TItle
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
 
         </section>
-        
+
     )
 }
 

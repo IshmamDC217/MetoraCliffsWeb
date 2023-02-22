@@ -28,16 +28,15 @@ export default function Home() {
       </header>
 
       <main>
-        
-        <Banner/>
-        <Work/>
-        <AboutUs/>
-        <OurContent/>
-        <Skills/>
-        <Gallery/>
-        <ParticlesBG/>
+        <Banner />
+        <Work />
+        <AboutUs />
+        <OurContent />
+        <Skills />
+        <Gallery />
+        <ParticlesBG />
       </main>
 
-    </div> 
+    </div>
   )
 }
