@@ -36,7 +36,7 @@ const Navbar = () => {
                 </div>
                 <p>&nbsp;</p>
 
-                <a href="#" className='hidden md:flex border border-[#217ea0] px-3 py-2 text-[#000000] rounded-[3px] items-center gap-2
+                <a href="#" className='hidden md:flex border border-[#217ea0] px-2 py-2 text-[#000000] rounded-[3px] items-center gap-2
                                         hover:bg-[#217ea0] hover:text-white transition duration-200'>
                     Upcoming Gigs!
                     <BiImage />

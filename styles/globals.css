@@ -9,8 +9,6 @@
 
 html,
 body {
-    padding: 0;
-    margin: 0;
     font-family: 'Arial';
 }
 
@@ -41,22 +39,30 @@ p {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .bannerpart {
         display: none !important;
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
     .bannerpart {
         display: block !important;
     }
 }
 
 body {
-    margin: 0;
     background: #12161c;
 }
+
+/* .Skills{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+} */
 
 section {
     position: relative;
@@ -66,6 +72,7 @@ section {
     min-height: 400px;
     padding: 100px 20vw;
 }
+
 
 /* .Work { #202731
     background: #5f639c;
