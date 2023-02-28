@@ -21,6 +21,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
 
+        <link rel="stylesheet" href="global.css" />
+        <script src='App.js'></script>
+
       </Head>
 
       <header>
@@ -28,7 +31,7 @@ export default function Home() {
       </header>
 
       <main>
-        <Banner />
+        <Banner/>
         <Work />
         <AboutUs />
         <OurContent />

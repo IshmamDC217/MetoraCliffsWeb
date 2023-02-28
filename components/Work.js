@@ -4,15 +4,18 @@ import Heading from './Heading'
 import MCMC from '../components/MCMC.jpg'
 import ADWS from '../components/ADWS.png'
 import MOM from '../components/MOM.png'
+import { useInView } from 'react-intersection-observer';
 
 const Work = () => {
+  const { ref, inView, entry } = useInView()
+
   return (
     <section className='container mx-auto py-10 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
       <Heading title="Singles"></Heading>
       <div className='grid grid-cols-1 gap-4'>
         <div className='row-span-2 relative group'>
 
-          <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+          <div ref={ref} className={`${inView ? 'show' : null} intobs`} style={{ display: 'flex', flexWrap: 'wrap' }}>
             <a class="scale-90 hover:scale-100 ease-in duration-200" href="https://open.spotify.com/track/6QPgAgYlKjTrh6k0zd6rRZ?si=ROdex7jIRI-Wx3-MV9PLQA">
               <Image src={MCMC} alt="Single" style={{ width: '300px', height: '300px', margin: '10px' }} />
               <div class="text-[#ffffff] caption px-3" style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>

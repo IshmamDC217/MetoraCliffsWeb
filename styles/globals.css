@@ -40,7 +40,7 @@ p {
 }
 
 @media (max-width: 500px) {
-    .bannerpart {
+    .bannerpart .intobs .intobsr {
         display: none !important;
     }
 }
@@ -64,15 +64,42 @@ body {
     padding: 100px 20vw;
 } */
 
-section {
+/* section {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 400px;
     padding: 100px 20vw;
+} */
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
 }
 
+.intobs{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.intobsr{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
 
 /* .Work { #202731
     background: #5f639c;
