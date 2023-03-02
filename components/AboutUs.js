@@ -11,7 +11,7 @@ import { useInView } from 'react-intersection-observer';
 
 const AboutUs = () => {
   const { ref, inView, entry } = useInView()
-  
+
   return (
     <section className='container mx-auto py-10 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
 
@@ -20,15 +20,15 @@ const AboutUs = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
 
         <div style={{ display: 'flex', flexDirection: 'row' }}>
-          <a ref={ref} className={`${inView ? 'show' : null} intobs px-4`}> <Image src={MCbandpic} width="400px" height="350px" alt="Band Pic" className="bandpic" /> </a>
+          <a ref={ref} className={`${inView ? 'show' : null} intobss px-4`}> <Image src={MCbandpic} width="400px" height="350px" alt="Band Pic" className="bandpic" /> </a>
           {/* style={{marginLeft: "20px"}} style={{ display: 'flex', flexDirection: 'column' }}  */}
         </div>
 
         <div>
           <div className='max-w-[800px]'>
             <p>&nbsp;</p>
-            <h2 ref={ref} className={`${inView ? 'show' : null} intobsr text-lg font-bold mt-1 mb-10`}> A Progressive Rock band based in Leeds</h2>
-            <p ref={ref} className={`${inView ? 'show' : null} intobsr text-[#ffffff]`}>Fusing Prog Rock/Metal with video game synth melodies, Metora Cliffs appeal to Prog fanatics and casual listeners alike. Taking inspiration from modern & classic prog/video game music composition like that of Nintendo & Sega, their live shows and 3 singles showcase their enticing sound. The band consists of Dylan Tann (vocals), Ivan Knight (keyboard), Ish Ahmed & Alexander Kelk (guitars), Eddie Hyndes (bass) & Louis Walker (drums).</p>
+            <h2 ref={ref} className={`${inView ? 'show' : null} intobssr text-lg font-bold mt-1 mb-10`}> A Progressive Rock band based in Leeds</h2>
+            <p ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`}>Fusing Prog Rock/Metal with video game synth melodies, Metora Cliffs appeal to Prog fanatics and casual listeners alike. Taking inspiration from modern & classic prog/video game music composition like that of Nintendo & Sega, their live shows and 3 singles showcase their enticing sound. The band consists of Dylan Tann (vocals), Ivan Knight (keyboard), Ish Ahmed & Alexander Kelk (guitars), Eddie Hyndes (bass) & Louis Walker (drums).</p>
 
           </div>
 
@@ -36,28 +36,28 @@ const AboutUs = () => {
             <div className='flex flex-col gap-6'>
               <p>&nbsp;</p>
               <div className='flex gap-4 items-center font-medium'>
-                <AiFillInstagram ref={ref} className={`${inView ? 'show' : null} intobsr text-[#962fbf] text-[22px]`}/>
-                <a ref={ref} className={`${inView ? 'show' : null} intobsr text-[#ffffff]`} href="https://instagram.com/metoracliffsmusic" target="_blank">Instagram</a>
+                <AiFillInstagram ref={ref} className={`${inView ? 'show' : null} intobssr text-[#962fbf] text-[22px]`} />
+                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://instagram.com/metoracliffsmusic" target="_blank">Instagram</a>
               </div>
 
               <div className='flex gap-4 items-center font-medium'>
-                <AiFillYoutube ref={ref} className={`${inView ? 'show' : null} intobsr text-[#c4302b] text-[22px]`} />
-                <a ref={ref} className={`${inView ? 'show' : null} intobsr text-[#ffffff]`} href="https://youtube.com/@metoracliffs5994" target="_blank">Youtube</a>
+                <AiFillYoutube ref={ref} className={`${inView ? 'show' : null} intobssr text-[#c4302b] text-[22px]`} />
+                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://youtube.com/@metoracliffs5994" target="_blank">Youtube</a>
               </div>
 
               <div className='flex gap-4 items-center font-medium'>
-                <AiFillFacebook ref={ref} className={`${inView ? 'show' : null} intobsr text-[#3b5998] text-[22px]`} />
-                <a ref={ref} className={`${inView ? 'show' : null} intobsr text-[#ffffff]`} href="https://facebook.com/metoracliffs" target="_blank">Facebook</a>
+                <AiFillFacebook ref={ref} className={`${inView ? 'show' : null} intobssr text-[#3b5998] text-[22px]`} />
+                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://facebook.com/metoracliffs" target="_blank">Facebook</a>
               </div>
 
               <div className='flex gap-4 items-center font-medium'>
-                <FaTiktok ref={ref} className={`${inView ? 'show' : null} intobsr text-[#00f2ea] text-[22px]`} />
-                <a ref={ref} className={`${inView ? 'show' : null} intobsr text-[#ffffff]`} href="https://tiktok.com/@metoracliffs" target="_blank">TikTok</a>
+                <FaTiktok ref={ref} className={`${inView ? 'show' : null} intobssr text-[#00f2ea] text-[22px]`} />
+                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://tiktok.com/@metoracliffs" target="_blank">TikTok</a>
               </div>
 
               <div className='flex gap-4 items-center font-medium'>
-                <FaSpotify ref={ref} className={`${inView ? 'show' : null} intobsr text-[#1db954] text-[22px]`} />
-                <a ref={ref} className={`${inView ? 'show' : null} intobsr text-[#ffffff]`} href="https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6" target="_blank">Spotify</a>
+                <FaSpotify ref={ref} className={`${inView ? 'show' : null} intobssr text-[#1db954] text-[22px]`} />
+                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6" target="_blank">Spotify</a>
               </div>
 
             </div>

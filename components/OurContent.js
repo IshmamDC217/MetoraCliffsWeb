@@ -13,7 +13,6 @@ const OurContent = () => {
     const { ref, inView, entry } = useInView()
     return (
         <section className='container mx-auto py-10 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
-            {/* https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6 */}
             <Heading title="Our Content" />
             <div ref={ref} className={`${inView ? 'show' : null} intobs grid grid-cols-1 md:grid-cols-3 gap-6`}>
                 <a class="scale-90 hover:scale-100 ease-in duration-200" href="https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6">

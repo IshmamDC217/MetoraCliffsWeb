@@ -80,22 +80,35 @@ section {
     min-height: 100vh;
 }
 
-.intobs{
+.intobs {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 1s;
+    transition: all 0.75s;
 }
 
-.intobsr{
+.intobsr {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(100%);
-    transition: all 1s;
+    transition: all 0.75s;
 }
 
+.intobss {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 0.5s;
+}
 
-.show{
+.intobssr {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 0.5s;
+}
+
+.show {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
