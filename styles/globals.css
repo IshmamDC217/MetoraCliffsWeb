@@ -125,6 +125,17 @@ section {
     }
 }
 
+@media only screen and (min-width: 500px) {
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        
+    }
+}
+
 /* .Work { #202731
     background: #5f639c;
 }
