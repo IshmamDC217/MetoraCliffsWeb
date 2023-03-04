@@ -20,7 +20,7 @@ const AboutUs = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
 
         <div style={{ display: 'flex', flexDirection: 'row' }}>
-          <a ref={ref} className={`${inView ? 'show' : null} intobss px-4`}> <Image src={MCbandpic} width="400px" height="350px" alt="Band Pic" className="bandpic" /> </a>
+          <a ref={ref} className={`${inView ? 'show' : 'show'} intobss px-4`}> <Image src={MCbandpic} width="400px" height="350px" alt="Band Pic" className="bandpic" /> </a>
           {/* style={{marginLeft: "20px"}} style={{ display: 'flex', flexDirection: 'column' }}  */}
         </div>
 
