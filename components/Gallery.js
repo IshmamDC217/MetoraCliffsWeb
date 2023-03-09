@@ -28,7 +28,7 @@ const Gallery = () => {
             <Heading title="Gallery" />
             <div className='max-w-full grid grid-cols-6 gap-4'>
                 <a class="scale-90 hover:scale-100 ease-in duration-200">
-                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'> 
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
                         <div className='row-span-2 relative group'>
                             <Image class="image" src={l} alt="" />
                             <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500 
