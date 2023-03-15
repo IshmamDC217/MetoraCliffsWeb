@@ -22,9 +22,7 @@ const Skills = () => {
             <p className='text-gray-600 -mt-10 mb-1'>Meet the Band</p>
 
             <div className='text-[#ffffff] grid grid-cols-1 md:grid-cols-2 gap-[50px] mt-3'>
-                <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#0392cf] text-white'>
-                    {/* style={{ display: 'flex', justifyContent: 'center' }} */}
-
+                <div className='dylFrame max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#0392cf] text-white'>
                     <div className='max-w-[500px]'>
                         <a className='px-4'> <Image src={Dylan} width="350px" height="300px" alt="Single Shot" className="Dylan" /> </a>
                     </div>
@@ -105,7 +103,7 @@ const Skills = () => {
 
                 {/* <div className='bg-[#7aace8] h-[2px] w-[800px] translate-y-1'></div> */}
 
-                <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#f6cd61] text-black'>
+                <div className='ishFrame max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#f6cd61] text-black'>
                     <div className='max-w-[500px]'>
                         <a className='px-4'> <Image src={Ish} width="350px" height="300px" alt="Single Shot" className="Ishmam" /> </a>
                     </div>
@@ -189,7 +187,7 @@ const Skills = () => {
 
                 {/* <div className='bg-[#7aace8] h-[2px] w-[800px] translate-y-1'></div> */}
 
-                <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#7bc043] text-white'>
+                <div className='alexFrame max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#7bc043] text-white'>
                     <div className='max-w-[500px]'>
                         <a className='px-4'> <Image src={Alexander} width="350px" height="300px" alt="Single Shot" className="Alex" /> </a>
                     </div>
@@ -271,7 +269,7 @@ const Skills = () => {
 
                 {/* <div className='bg-[#7aace8] h-[2px] w-[800px] translate-y-1'></div> */}
 
-                <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#f9f4f4] text-black'>
+                <div className='louisFrame max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#f9f4f4] text-black'>
                     <div className='max-w-[500px]'>
                         <a className='px-4'> <Image src={Louis} width="350px" height="300px" alt="Single Shot" className="Louis" /> </a>
                     </div>
@@ -353,7 +351,7 @@ const Skills = () => {
 
                 {/* <div className='bg-[#7aace8] h-[2px] w-[800px] translate-y-1'></div> */}
 
-                <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#ee4035] text-white'>
+                <div className='eddieFrame max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#ee4035] text-white'>
                     <div className='max-w-[500px]'>
                         <a className='px-4'> <Image src={Eddie} width="350px" height="300px" alt="Single Shot" className="Eddie" /> </a>
                     </div>

@@ -66,14 +66,14 @@ section {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 0.75s;
+    transition: all 1s;
 }
 
 .intobsr {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(100%);
-    transition: all 0.75s;
+    transition: all 1s;
 }
 
 .intobss {
@@ -116,4 +116,50 @@ section {
         overflow-x: hidden;
         
     }
+}
+
+.dylFrame{
+    background: 
+    linear-gradient(
+        45deg,
+        #0392cf,
+        #c471ed
+    );
+}
+
+.ishFrame{
+    background: 
+    linear-gradient(
+        45deg,
+        #f6cd61,
+        #FE5000
+        
+    );
+}
+
+.alexFrame{
+    background: 
+    linear-gradient(
+        45deg,
+        #7bc043,
+        #05431f
+    );
+}
+
+.louisFrame{
+    background: 
+    linear-gradient(
+        45deg,
+        #f9f4f4,
+        #565656c2
+    );
+}
+
+.eddieFrame{
+    background: 
+    linear-gradient(
+        45deg,
+        #Fb1230,
+        #770918    
+    );
 }
