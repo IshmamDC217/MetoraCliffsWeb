@@ -151,7 +151,7 @@ section {
     linear-gradient(
         45deg,
         #f9f4f4,
-        #565656c2
+        #f2d383
     );
 }
 
@@ -163,3 +163,15 @@ section {
         #770918    
     );
 }
+
+/* .bandFrame{
+    background: 
+    linear-gradient(
+        90deg,
+        #5d5d61,
+        #313136,
+        #2c2e38,
+        #2a2b31,
+        #1a1b1fbe    
+    );
+} */
