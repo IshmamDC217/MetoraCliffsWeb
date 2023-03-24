@@ -164,6 +164,22 @@ section {
     );
 }
 
+.card_img {
+    filter:grayscale(100) contrast(100%);
+    transition: filter 400ms ease;
+}
+
+.card_img:hover {
+    filter:grayscale(0);
+}
+
+@media (max-width: 500px) {
+    .card_img {
+        filter: grayscale(0);
+        background-color: #aebbe4;
+    }
+}
+
 /* .bandFrame{
     background: 
     linear-gradient(

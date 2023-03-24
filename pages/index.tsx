@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
         <link rel="stylesheet" href="global.css" />
-        <script src='App.js'></script>
+        <script src='App.js'/>
 
       </Head>
 

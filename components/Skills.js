@@ -13,6 +13,7 @@ import { GiGuitarBassHead } from 'react-icons/gi'
 
 const Skills = () => {
     const [ishEasterEgg, setShowEasterEgg] = useState(false);
+    const [dylEasterEgg, setShowEasterEgg1] = useState(false);
 
     return (
         <section className='container mx-auto py-10 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
@@ -71,10 +72,12 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <p>&nbsp;</p>
-                                <div>
+                                <div onMouseEnter={() => setShowEasterEgg1(true)}
+                                    onMouseLeave={() => setShowEasterEgg1(false)}>
                                     <p>Pinneapple on Pizza</p>
+                                    {dylEasterEgg ? <p class="max-w-[200px] text-sm">unless it's Pinneapple 'and' Pizza</p> : null}
                                     <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                        <div className='bg-[#000000] absolute h-[6px] w-[0%]'>
+                                        <div className={`bg-[#000000] absolute h-[6px] w-[${dylEasterEgg ? "100%" : "70%"}]`}>
                                         </div>
                                     </div>
                                 </div>
