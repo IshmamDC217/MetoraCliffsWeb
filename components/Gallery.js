@@ -21,12 +21,194 @@ import n from '../components/gallery/n.jpg'
 import o from '../components/gallery/o.jpg'
 import p from '../components/gallery/p.jpg'
 import q from '../components/gallery/q.jpg'
+import r from '../components/gallery/r.jpg'
+import s from '../components/gallery/s.jpg'
+import t from '../components/gallery/t.jpg'
+import u from '../components/gallery/u.jpg'
+import v from '../components/gallery/v.jpg'
+import w from '../components/gallery/w.jpg'
+import x from '../components/gallery/x.jpg'
+import y from '../components/gallery/y.jpg'
+import z from '../components/gallery/z.jpg'
+import aa from '../components/gallery/aa.jpg'
+import bb from '../components/gallery/bb.jpg'
+import cc from '../components/gallery/cc.jpg'
+import dd from '../components/gallery/dd.jpg'
+import ee from '../components/gallery/ee.jpg'
 
 const Gallery = () => {
     return (
         <section className='container mx-auto py-10 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
             <Heading title="Gallery" />
             <div className='max-w-full grid grid-cols-6 gap-4'>
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={t} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={r} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={s} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={u} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={v} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={w} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={x} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={y} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={z} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={aa} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={bb} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={cc} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={dd} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
+                    <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+                        <div className='relative group'>
+                            <Image class="image" src={ee} alt="" />
+                            <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
+                    group:hover:opacity-100 grid place_items-center text-white'>
+                                Project Title
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
                 <a class="card_img scale-90 hover:scale-100 ease-in duration-200">
                     <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
                         <div className='row-span-2 relative group'>
@@ -253,6 +435,7 @@ const Gallery = () => {
                         </div>
                     </div>
                 </a>
+
             </div>
 
         </section>
