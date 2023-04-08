@@ -7,7 +7,7 @@ import { GiFire } from 'react-icons/gi'
 
 const Navbar = () => {
     return (
-        <div className='bg-[#aebbe4] fixed top-0 w-[100%] z-10'>
+        <div className='bg-white fixed top-0 w-[100%] z-10'>
             <div className='container mx-auto flex justify-between items-center py-4 px-4 ' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
                 <div className='max-w-xs'> <Image src={corner} width="300px" height="300px" alt="Metora Cliffs" /> </div>
                 <div className='hidden md:flex gap-6'>
