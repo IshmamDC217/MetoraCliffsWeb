@@ -10,6 +10,7 @@ import Skills from "../components/Skills"
 import Gallery from "../components/Gallery"
 import Artwork from "../components/Artwork"
 import ParticlesBG from '../components/ParticlesBG'
+import ContactUs from '../components/ContactUs'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -39,6 +40,7 @@ export default function Home() {
         <Skills />
         <Gallery />
         <Artwork />
+        <ContactUs />
         <ParticlesBG />
       </main>
 

@@ -166,6 +166,13 @@ section {
     filter: grayscale(0);
 }
 
+.contactus {
+    background:
+        linear-gradient(90deg,
+            #0392cf,
+            #c471ed);
+}
+  
 @media (max-width: 500px) {
     .card_img {
         filter: grayscale(0);
@@ -176,7 +183,7 @@ section {
     .artimg {
         width: 100%;
     }
-} */ */
+} */
 
 /* @media (max-width: 500px) {
     .legend {
