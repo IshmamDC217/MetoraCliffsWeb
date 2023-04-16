@@ -167,10 +167,7 @@ section {
 }
 
 .contactus {
-    background:
-        linear-gradient(90deg,
-            #0392cf,
-            #c471ed);
+    background:#042635
 }
   
 @media (max-width: 500px) {
@@ -208,3 +205,28 @@ section {
         #1a1b1fbe    
     );
 } */
+
+.gallerycontainer {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+  
+  .card_img {
+    overflow: hidden;
+    position: relative;
+    border-radius: 0.5rem;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card_img:hover .image {
+    transform: scale(1.1);
+  }
