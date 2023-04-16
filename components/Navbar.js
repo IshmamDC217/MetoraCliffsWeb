@@ -1,11 +1,22 @@
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import Image from 'next/image';
+import corner from '../components/corner.png';
+import { BiImage } from 'react-icons/bi';
+import { GiFire } from 'react-icons/gi';
 import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import corner from '../components/corner.png'
-import { BiImage } from 'react-icons/bi'
-import { GiFire } from 'react-icons/gi'
 
 const Navbar = () => {
+    const linkVariant = {
+        hidden: { opacity: 0, x: -20 },
+        visible: { opacity: 1, x: 0 },
+    };
+
+    const iconVariant = {
+        hidden: { opacity: 0, y: -20 },
+        visible: { opacity: 1, y: 0 },
+    };
+
     return (
         <div className='bg-white fixed top-0 w-[100%] z-10'>
             <div className='container mx-auto flex justify-between items-center py-4 px-4 ' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
@@ -14,37 +25,47 @@ const Navbar = () => {
                     <p>&nbsp;</p>
                     <p>&nbsp;</p>
 
-                    <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
-                        Home
-                    </Link>
+                    <motion.div variants={linkVariant}>
+                        <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
+                            Home
+                        </Link>
+                    </motion.div>
 
-                    <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
-                        Songs
-                    </Link>
+                    <motion.div variants={linkVariant}>
+                        <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
+                            Songs
+                        </Link>
+                    </motion.div>
 
-                    <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
-                        About
-                    </Link>
+                    <motion.div variants={linkVariant}>
+                        <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
+                            About
+                        </Link>
+                    </motion.div>
 
-                    <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
-                        Gallery
-                    </Link>
+                    <motion.div variants={linkVariant}>
+                        <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
+                            Gallery
+                        </Link>
+                    </motion.div>
 
-                    <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
-                        Contact
-                    </Link>
+                    <motion.div variants={linkVariant}>
+                        <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
+                            Contact
+                        </Link>
+                    </motion.div>
                 </div>
                 <p>&nbsp;</p>
 
-                <a href="#" className='hidden md:flex border border-[#217ea0] px-2 py-2 mx-2 text-[#000000] rounded-[3px] items-center gap-2
-                                        hover:bg-[#217ea0] hover:text-white transition duration-200'>
+                <motion.a href="#" className='hidden md:flex border border-[#217ea0] px-2 py-2 mx-2 text-[#000000] rounded-[3px] items-center gap-2
+                                          hover:bg-[#217ea0] hover:text-white transition duration-200' variants={iconVariant}>
                     Upcoming Gigs!
                     <BiImage />
-                </a>
+                </motion.a>
 
-                <div className='md:hidden text-[24px]'>
+                <motion.div className='md:hidden text-[24px]' variants={iconVariant}>
                     <GiFire />
-                </div>
+                </motion.div>
             </div>
         </div>
     )
