@@ -13,7 +13,7 @@ const ContactUs = () => {
   };
 
   return (
-    <motion.div className="contactus bg-[#58629c] p-10 rounded-md shadow-lg max-w-[1500px] ml-2.5">
+    <motion.div className="contactus bg-[#58629c] p-10 rounded-md shadow-lg max-w-[900px] ml-5">
       <h2 className="text-2xl text-white font-bold mb-6">Contact Us</h2>
       <form className="space-y-4">
         <motion.div whileHover={{ scale: 1.02 }} className="flex flex-col">
@@ -50,7 +50,7 @@ const ContactUs = () => {
           variants={buttonVariants}
           whileHover="hover"
           type="submit"
-          className="bg-purple-800 text-white py-2 px-4 rounded"
+          className="bg-gray-800 text-white py-2 px-4 rounded"
         >
           Send Message
         </motion.button>
