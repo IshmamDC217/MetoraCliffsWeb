@@ -10,10 +10,10 @@ const Work = () => {
   const { ref, inView, entry } = useInView()
 
   return (
-    <section className='container mx-auto py-10 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
+    <section className='container mx-auto px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
       <Heading title="Singles"></Heading>
-      <div className='grid grid-cols-1 gap-4'>
-        <div className='max-w-[2000px] shadow-lg flex flex-col gap-2 px-4 py-14 bg-[#1a1b1fbe] text-white row-span-2 relative group'>
+      <div className='grid grid-cols-1'>
+        <div className='max-w-[2000px] shadow-lg flex flex-col gap-2 px-4 py-2 bg-[#1a1b1fbe] text-white row-span-2 relative group'>
 
           <div ref={ref} className={`${inView ? 'show' : null} intobs`} style={{ display: 'flex', flexWrap: 'wrap' }}>
             <a class="scale-90 hover:scale-100 ease-in duration-200" href="https://open.spotify.com/track/6QPgAgYlKjTrh6k0zd6rRZ?si=ROdex7jIRI-Wx3-MV9PLQA">
