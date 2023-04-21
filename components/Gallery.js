@@ -38,7 +38,7 @@ import ee from '../components/gallery/ee.jpg'
 
 const Gallery = () => {
     return (
-        <section className='container mx-auto py-10 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
+        <section className='gallerycontainer mx-auto py-10 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
             <Heading title="Gallery" />
             <div className='max-w-full grid grid-cols-6 gap-4'>
                 <a class="card_img scale-90 hover:scale-100 ease-in duration-200">

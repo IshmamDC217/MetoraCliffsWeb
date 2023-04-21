@@ -167,7 +167,9 @@ section {
 }
 
 .contactus {
-    background:#042635
+    background:linear-gradient(
+        #0697d5,
+        #0e4a7b)
 }
   
 @media (max-width: 500px) {
