@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Navbar from "../components/Navbar"
 import Banner from "../components/Banner"
@@ -8,9 +7,9 @@ import AboutUs from "../components/AboutUs"
 import OurContent from "../components/OurContent"
 import Skills from "../components/Skills"
 import Gallery from "../components/Gallery"
-import Artwork from "../components/Artwork"
 import ParticlesBG from '../components/ParticlesBG'
 import ContactUs from '../components/ContactUs'
+import Footer from '../components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -38,10 +37,9 @@ export default function Home() {
         <AboutUs />
         <OurContent />
         <Skills />
-        <Gallery />
-        <Artwork />
         <ContactUs />
         <ParticlesBG />
+        <Footer />
       </main>
 
     </div>
