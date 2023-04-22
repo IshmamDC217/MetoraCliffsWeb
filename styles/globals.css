@@ -51,6 +51,12 @@ p {
     }
 }
 
+.contactus-image {
+    border: 30px solid #ffffff;
+    border-image: linear-gradient(45deg, #3c0070, #1e65d1) 1;
+  }
+  
+
 body {
     background: #12161c;
 }
@@ -166,10 +172,12 @@ section {
     filter: grayscale(0);
 }
 
+.toastProgress {
+    background: #0e86e2 !important;
+  }
+
 .contactus {
-    background:linear-gradient(
-        #0697d5,
-        #0e4a7b)
+    background: #091e33 !important;
 }
   
 @media (max-width: 500px) {
@@ -178,18 +186,47 @@ section {
     }
 }
 
-/* @media (max-width: 500px) {
-    .artimg {
-        width: 100%;
+@media (max-width: 500px) {
+    .photobtn {
+        font-size: small;
     }
-} */
+}
+@media (max-width: 500px) {
+    .artbtn {
+        font-size: small;
+    }
+}
 
-/* @media (max-width: 500px) {
-    .legend {
+@media (max-width: 500px) {
+    .backbtn {
+        margin-top: 710px;
+    }
+}
+
+@media (max-width: 500px) {
+    .license {
         display: none;
     }
-} */
+}
 
+@media (max-width: 500px) {
+    .moblicense {
+        display: none ;
+    }
+    .liclogo {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 500px) {
+    .ishlicense {
+        display: none ;
+    }
+}
+
+.licensecontainer {
+    justify-content: center;
+}
 
 .carousel-item {
     margin: 0.5rem;
@@ -232,3 +269,5 @@ section {
   .card_img:hover .image {
     transform: scale(1.1);
   }
+
+  
