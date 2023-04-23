@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useSpring, animated } from 'react-spring';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import Heading from './Heading';
 import { artworkImages, photographyImages } from './gallery/allImages';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -12,8 +15,17 @@ const Gallery = () => {
     setSelectedCategory(category);
   };
 
+  const fadeIn = useSpring({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+    config: { duration: 1000 },
+    onRest: () => {
+      toast.dark('🏆 Achievement Unlocked: Visited the Gallery');
+    },
+  });
+
   const renderImages = (images) => (
-    <div className='max-w-full grid grid-cols-6 gap-4'>
+    <div className='grid'>
       {images.map((image, index) => (
         <motion.a
           key={index}
@@ -24,13 +36,9 @@ const Gallery = () => {
           exit={{ opacity: 0, scale: 0.8 }}
           transition={{ duration: 0.3 }}
         >
-          <div className='max-w-[500px] shadow-lg bg-[#7192bc] text-white'>
+          <div className='shadow-lg image'>
             <div className='relative group'>
-              <Image className='image' src={image.src} alt='' />
-              <div className='bg-[#000000bd] absolute w-[100%] top-0 opacity-0 transition duration-500
-                group:hover:opacity-100 grid place_items-center text-white'>
-                {image.title}
-              </div>
+              <Image className='image' src={image.src} alt={image.title} />
             </div>
           </div>
         </motion.a>
@@ -42,20 +50,20 @@ const Gallery = () => {
     <div>
       <section
         className='gallerycontainer mx-auto py-10 px-4'
-        style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}
       >
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
         <Heading title='Gallery' />
         {selectedCategory && (
           <motion.button
-            className='backbtn absolute top-20 mt-20 bg-gray-700 text-white text-sm px-4 py-2 rounded-lg hover:bg-gray-800 transition duration-200 ease-in'
-            onClick={() => setSelectedCategory(null)}
-          >
-            Go Back
-          </motion.button>
+          className='backbtn absolute top-20 mt-20 bg-gray-700 text-white text-sm px-4 py-2 rounded-lg hover:bg-gray-800 transition duration-200 ease-in'
+          onClick={() => setSelectedCategory(null)}
+          style={{ zIndex: 10 }}
+        >
+          Go Back
+        </motion.button>
         )}
 
         <AnimatePresence>
@@ -69,13 +77,13 @@ const Gallery = () => {
               <p className='text-white text-center mb-4'>Choose between the two options below:</p>
               <div className='flex justify-center space-x-8'>
                 <button
-                  className='artbtn bg-[#0392cf] text-white text-2xl px-8 py-4 rounded-lg hover:bg-blue-800 transition duration-200 ease-in'
+                  className='artbtn text-white text-2xl px-8 py-4 rounded-lg hover:bg-blue-800 transition duration-200 ease-in'
                   onClick={() => handleCategoryClick('artwork')}
                 >
                   Artwork
                 </button>
                 <button
-                  className='photobtn bg-[#c471ed] text-white text-2xl px-8 py-4 rounded-lg hover:bg-purple-800 transition duration-200 ease-in'
+                  className='photobtn text-white text-2xl px-8 py-4 rounded-lg hover:bg-purple-800 transition duration-200 ease-in'
                   onClick={() => handleCategoryClick('photography')}
                 >
                   Photography
@@ -86,29 +94,19 @@ const Gallery = () => {
         </AnimatePresence>
 
         <AnimatePresence>
-          {selectedCategory === 'artwork' && (
+          {selectedCategory && (
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <Heading title='Artwork' />
-              {renderImages(artworkImages)}
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <AnimatePresence>
-          {selectedCategory === 'photography' && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <Heading title='Photography' />
-              {renderImages(photographyImages)}
+              <p className='text-white text-center mb-4'>
+                Click on any image to read it's History.
+              </p>
+              {selectedCategory === 'artwork' && <Heading title='Artwork' />}
+              {selectedCategory === 'photography' && <Heading title='Photography' />}
+              {renderImages(selectedCategory === 'artwork' ? artworkImages : photographyImages)}
             </motion.div>
           )}
         </AnimatePresence>
@@ -130,6 +128,7 @@ const Gallery = () => {
           )}
         </AnimatePresence>
       </section>
+      <ToastContainer progressClassName="toastProgress" position='bottom-right'/>
     </div>
   );
 };

@@ -10,9 +10,9 @@ const Work = () => {
   const { ref, inView, entry } = useInView()
 
   return (
-    <section className='container mx-auto px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
+    <section className='mcContainer mx-auto px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
       <Heading title="Singles"></Heading>
-      <div className='grid grid-cols-1'>
+      <div className='mcgrid grid-cols-1'>
         <div className='max-w-[2000px] shadow-lg flex flex-col gap-2 px-4 py-2 bg-[#1a1b1fbe] text-white row-span-2 relative group'>
 
           <div ref={ref} className={`${inView ? 'show' : null} intobs`} style={{ display: 'flex', flexWrap: 'wrap' }}>

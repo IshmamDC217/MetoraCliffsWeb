@@ -13,7 +13,7 @@ const Banner = () => {
     to: { opacity: 1 },
     config: { duration: 1000 },
     onRest: () => {
-      toast.dark('Achievement Unlocked: Entered The Metoraverse');
+      toast.dark('🏆 Achievement Unlocked: Entered The Metoraverse');
     },
   });
 
