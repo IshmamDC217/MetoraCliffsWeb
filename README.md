@@ -1,9 +1,48 @@
-# Metora Cliff's Website 
+# Metora Cliffs Web
 
-## Introduction
-Metora Cliffs is a progressive rock band based in Leeds and Manchester, UK, inspired by video game music. We seek to combine our passion for nostalgic video game soundtracks with a modern progressive rock sound to create a unique and powerful musical experience.
+Metora Cliffs Web is the official website for Metora Cliffs, a video game-inspired progressive metal band that composes songs with a Nintendo-esque vibe. The website is developed with a video game theme to reflect the band's unique style and energy. It is built using modern web technologies such as Next.js, React, and Tailwind CSS, and incorporates a variety of cutting-edge features like Framer Motion, Intersection Observers, Particle.js, React Spring, and React Toastify for a visually stunning and engaging user experience. The website is optimized for both desktop and mobile devices, ensuring that users have a consistent experience across all platforms.
 
-For this project I am using Next.js to create our portfolio, to showcase our music, videos, and upcoming dates for our shows/gigs. We are utilizing modern libraries and frameworks to create a website that is both visually appealing and functional.
+## Features
 
-Our website is designed to be user friendly and will feature our music, videos, and upcoming dates for our gigs in an easy to find format. We also plan to use our website to promote our music and allow fans to purchase our merchandise from the website.
+- Next.js for server-rendered React, providing fast initial load times and SEO benefits
+- Tailwind CSS for a customizable and responsive design system
+- Framer Motion for smooth and performant animations
+- Intersection Observer API for efficiently handling scrolling events and triggering animations
+- Particle.js for creating interactive and dynamic particle systems
+- React Spring for physics-based animations
+- React Toastify for highly customizable and responsive toast notifications
+- Mobile-first design, optimized for use on smartphones and tablets
+
+## Prerequisites
+
+- Node.js 12.0 or higher
+- npm 6.0 or higher (usually included with Node.js)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/IshmamDC217/MetoraCliffsWeb.git
+   
+2. Navigate to the project directory:
+
+   ```bash
+   git clone https://github.com/IshmamDC217/MetoraCliffsWeb.git
+   
+3. Install the project dependencies:
+
+   ```bash
+   git clone https://github.com/IshmamDC217/MetoraCliffsWeb.git
+   
+## Running the Development Server
+
+To start the development server, run the following command:
+
+```bash
+npm run dev
+```
+
+The website will be accessible at http://localhost:3000.
+
 
