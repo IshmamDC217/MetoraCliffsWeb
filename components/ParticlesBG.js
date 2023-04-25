@@ -22,8 +22,8 @@ const ParticlesBG = () => {
         init={particlesInit}
         loaded={particlesLoaded}
         options={particlesconfig}
-        height="100vh"
-        width="100vw"
+        height= "0%"
+        width= "0%"
       ></Particles>
     </div>
   );
