@@ -39,27 +39,27 @@ const AboutUs = () => {
               <p>&nbsp;</p>
               <div className='flex gap-4 items-center font-medium'>
                 <AiFillInstagram ref={ref} className={`${inView ? 'show' : null} intobssr text-[#962fbf] text-[22px]`} />
-                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://instagram.com/metoracliffsmusic" target="_blank">Instagram</a>
+                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://instagram.com/metoracliffsmusic" rel="noopener noreferrer" >Instagram</a>
               </div>
 
               <div className='flex gap-4 items-center font-medium'>
                 <AiFillYoutube ref={ref} className={`${inView ? 'show' : null} intobssr text-[#c4302b] text-[22px]`} />
-                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://youtube.com/@metoracliffs5994" target="_blank">Youtube</a>
+                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://youtube.com/@metoracliffs5994" rel="noopener noreferrer" >Youtube</a>
               </div>
 
               <div className='flex gap-4 items-center font-medium'>
                 <AiFillFacebook ref={ref} className={`${inView ? 'show' : null} intobssr text-[#3b5998] text-[22px]`} />
-                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://facebook.com/metoracliffs" target="_blank">Facebook</a>
+                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://facebook.com/metoracliffs" rel="noopener noreferrer" >Facebook</a>
               </div>
 
               <div className='flex gap-4 items-center font-medium'>
                 <FaTiktok ref={ref} className={`${inView ? 'show' : null} intobssr text-[#00f2ea] text-[22px]`} />
-                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://tiktok.com/@metoracliffs" target="_blank">TikTok</a>
+                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://tiktok.com/@metoracliffs" rel="noopener noreferrer" >TikTok</a>
               </div>
 
               <div className='flex gap-4 items-center font-medium'>
                 <FaSpotify ref={ref} className={`${inView ? 'show' : null} intobssr text-[#1db954] text-[22px]`} />
-                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6" target="_blank">Spotify</a>
+                <a ref={ref} className={`${inView ? 'show' : null} intobssr text-[#ffffff]`} href="https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6" rel="noopener noreferrer" >Spotify</a>
               </div>
 
             </div>

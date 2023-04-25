@@ -1,9 +1,9 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import Image from 'next/image'
-import MCbandpic from '../components/MCbandpic.jpg'
-import Heading from './Heading'
-import { FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
+import React from "react";
+import { motion } from "framer-motion";
+import Image from "next/image"
+import MCbandpic from "../components/MCbandpic.jpg"
+import Heading from "./Heading"
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const ContactUs = () => {
   const buttonVariants = {
@@ -17,11 +17,11 @@ const ContactUs = () => {
   };
 
   return (
-    <section className='container mx-auto py-16' style={{ fontFamily: 'Adventure Subtitles', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <Heading title="Contact Us" style={{ textAlign: 'center' }} />
+    <section className="container mx-auto py-16" style={{ fontFamily: "Adventure Subtitles", display: "flex", flexDirection: "column", alignItems: "center" }}>
+      <Heading title="Contact Us" style={{ textAlign: "center" }} />
       <div className="contact-form-and-image flex flex-wrap justify-center mt-10 gap-10 mr-2">
         <motion.div className="contactus bg-[#58629c] p-14 py-16 rounded-md border w-[75%] mb-10" whileHover={{ y: -5 }}>
-          <h2 className="text-2xl text-white font-bold mb-6">Don't worry, we don't bite!</h2>
+          <h2 className="text-2xl text-white font-bold mb-6">Don&apos;t worry, we don&apos;t bite!</h2>
           <form className="space-y-4">
             <motion.div whileHover={{ scale: 1.02 }} className="flex flex-col">
               <label htmlFor="name" className="text-white mb-1">
@@ -63,9 +63,9 @@ const ContactUs = () => {
             </motion.button>
             <div className="contact-socials text-white flex justify-center items-center gap-5 mt-10">
               <p>Alternatively, you can contact us on:</p>
-              <a href="https://facebook.com/metoracliffs" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-              <a href="https://instagram.com/metoracliffsmusic" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-              <a href="https://tiktok.com/@metoracliffs" target="_blank" rel="noopener noreferrer"><FaTiktok /></a>
+              <a href="https://facebook.com/metoracliffs" rel="noopener noreferrer"><FaFacebook /></a>
+              <a href="https://instagram.com/metoracliffsmusic" rel="noopener noreferrer"><FaInstagram /></a>
+              <a href="https://tiktok.com/@metoracliffs" rel="noopener noreferrer"><FaTiktok /></a>
             </div>
           </form>
         </motion.div>
