@@ -3,5 +3,11 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
+
+  experimental: {
+    optimizeCss: true,
+    optimizeImages: true,
+    workerThreads: true,
+  },
 }
 
