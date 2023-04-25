@@ -61,7 +61,7 @@ const Banner = () => {
           <p>&nbsp;</p>
           <animated.div className="px-4" style={fadeIn}>
             {' '}
-            <p>Cited as one of the bands of all time in Leeds.</p>
+            <p>Cited as one of <strong className='text-[18px]'>the bands of all time</strong> in <strong className='text-[18px]'>Leeds</strong>.</p>
             <p>&nbsp;</p>
             <Button link="#" text="Contact Us" />
           </animated.div>

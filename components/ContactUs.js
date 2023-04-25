@@ -74,8 +74,8 @@ const ContactUs = () => {
         </div>
       </div>
       <div className="license contact-footer mt-10 text-gray-400">
-        <p>&copy; 2023 Metora Cliffs. All rights reserved.</p>
-        <p>Designed and Developed by Ishmam Ahmed.</p>
+        <p>&copy; 2023 Dylan Tann, Metora Cliffs. All rights reserved</p>
+        {/* <p>Designed and Developed by Ishmam Ahmed.</p> */}
 
       </div>
     </section>
