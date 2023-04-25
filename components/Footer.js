@@ -32,7 +32,7 @@ const Footer = () => {
             <p className="text-white text-xl font-bold">Metora Cliffs</p>
           </div>
           <div className="flex items-center mt-4 ">
-            <p className="moblicense text-gray-400 text-sm pr-80">@ 2023 Licensed by Ishmam Ahmed. All rights reserved</p>
+            <p className="moblicense text-gray-400 text-sm pr-80">&copy; 2023 Licensed by Ishmam Ahmed. All rights reserved</p>
             <div className="flex space-x-4">
               <a href="#" className="license text-white hover:text-gray-400 transition duration-300">Terms of Use</a>
               <a href="#" className="license text-white hover:text-gray-400 transition duration-300">Privacy Policy</a>
