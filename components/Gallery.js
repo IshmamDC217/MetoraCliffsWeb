@@ -102,7 +102,7 @@ const Gallery = () => {
               transition={{ duration: 0.5 }}
             >
               <p className='text-white text-center mb-4'>
-                Click on any image to read it's <strong className='text-[20px] text-[#e8880d]'>History</strong> at the bottom.
+                Click on any image to read it&apos;s <strong className='text-[20px] text-[#e8880d]'>History</strong> at the bottom.
               </p>
               {selectedCategory === 'artwork' && <Heading title='Artwork' />}
               {selectedCategory === 'photography' && <Heading title='Photography' />}

@@ -95,7 +95,7 @@ const Skills = () => {
                                     <div onMouseEnter={() => setShowEasterEgg1(true)}
                                         onMouseLeave={() => setShowEasterEgg1(false)}>
                                         <p>Pinneapple on Pizza</p>
-                                        {dylEasterEgg ? <p class="max-w-[200px] text-sm">unless it's Pinneapple 'and' Pizza</p> : null}
+                                        {dylEasterEgg ? <p class="max-w-[200px] text-sm">unless it&apos;s Pinneapple &apos;and&apos; Pizza</p> : null}
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
                                             <div className={`bg-[#000000] absolute h-[6px] w-[${dylEasterEgg ? "100%" : "70%"}]`}>
                                             </div>
@@ -163,7 +163,7 @@ const Skills = () => {
                                     <div onMouseEnter={() => setShowEasterEgg(true)}
                                         onMouseLeave={() => setShowEasterEgg(false)}>
                                         <p>Fingering</p>
-                                        {ishEasterEgg ? <p class="max-w-[200px] text-sm">unless it's my girlfriend, then 10/10 ;)</p> : null}
+                                        {ishEasterEgg ? <p class="max-w-[200px] text-sm">unless it&apos;s my girlfriend, then 10/10 jkjk</p> : null}
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
                                             <div className={`bg-[#000000] absolute h-[6px] w-[${ishEasterEgg ? "100%" : "70%"}]`}>
                                             </div>
