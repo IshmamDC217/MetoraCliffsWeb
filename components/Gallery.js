@@ -74,16 +74,16 @@ const Gallery = () => {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <p className='text-white text-center mb-4'>Choose between the two options below:</p>
-              <div className='flex justify-center space-x-8'>
+              <p className='text-white text-center mb-4'>Check out our <strong className='text-[20px] text-[#0290bc]'>Artwork</strong> or our <strong className='text-[20px] text-[#b267e1]'>Photography</strong> by clicking one of the two options below:</p>
+              <div className='flex justify-center space-x-5'>
                 <button
-                  className='artbtn text-white text-2xl px-8 py-4 rounded-lg hover:bg-blue-800 transition duration-200 ease-in'
+                  className='artbtn bg-[#0279ac] text-white text-2xl rounded-lg hover:bg-blue-800 transition duration-200 ease-in'
                   onClick={() => handleCategoryClick('artwork')}
                 >
                   Artwork
                 </button>
                 <button
-                  className='photobtn text-white text-2xl px-8 py-4 rounded-lg hover:bg-purple-800 transition duration-200 ease-in'
+                  className='photobtn bg-[#b267e1] text-white text-2xl rounded-lg hover:bg-purple-800 transition duration-200 ease-in'
                   onClick={() => handleCategoryClick('photography')}
                 >
                   Photography
@@ -102,7 +102,7 @@ const Gallery = () => {
               transition={{ duration: 0.5 }}
             >
               <p className='text-white text-center mb-4'>
-                Click on any image to read it's History.
+                Click on any image to read it's <strong className='text-[20px] text-[#e8880d]'>History</strong> at the bottom.
               </p>
               {selectedCategory === 'artwork' && <Heading title='Artwork' />}
               {selectedCategory === 'photography' && <Heading title='Photography' />}
