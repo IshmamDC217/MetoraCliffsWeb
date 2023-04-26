@@ -40,6 +40,7 @@ const ContactUs = () => {
               <input
                 type="email"
                 id="email"
+                whileHover={{ scale: 1.02 }}
                 className="border border-gray-300 p-2 rounded"
               />
             </motion.div>

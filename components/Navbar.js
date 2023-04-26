@@ -25,31 +25,31 @@ const Navbar = () => {
                     <p>&nbsp;</p>
                     <p>&nbsp;</p>
 
-                    <motion.div variants={linkVariant}>
+                    <motion.div whileHover={{ scale: 1.08 }} variants={linkVariant}>
                         <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
                             Home
                         </Link>
                     </motion.div>
 
-                    <motion.div variants={linkVariant}>
+                    <motion.div whileHover={{ scale: 1.08 }} variants={linkVariant}>
                         <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
                             Songs
                         </Link>
                     </motion.div>
 
-                    <motion.div variants={linkVariant}>
+                    <motion.div whileHover={{ scale: 1.08 }} variants={linkVariant}>
                         <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
                             About
                         </Link>
                     </motion.div>
 
-                    <motion.div variants={linkVariant}>
+                    <motion.div whileHover={{ scale: 1.08 }} variants={linkVariant}>
                         <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/gallery'>
                             Gallery
                         </Link>
                     </motion.div>
 
-                    <motion.div variants={linkVariant}>
+                    <motion.div whileHover={{ scale: 1.08 }} variants={linkVariant}>
                         <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
                             Contact
                         </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
                 <p>&nbsp;</p>
 
                 <motion.a href="#" className='hidden md:flex border border-[#217ea0] px-2 py-2 mx-2 text-[#000000] rounded-[3px] items-center gap-2
-                                          hover:bg-[#217ea0] hover:text-white transition duration-200' variants={iconVariant}>
+                                          hover:bg-[#217ea0] hover:text-white transition duration-200' whileHover={{ scale: 1.08 }} variants={iconVariant}>
                     Upcoming Gigs!
                     <BiImage />
                 </motion.a>
