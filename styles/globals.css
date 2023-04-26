@@ -25,6 +25,10 @@ p {
     font-family: Lucida Console;
 }
 
+.mcContainer{
+    position: relative;
+}
+
 .workimage {
     width: 300px;
     height: 300px;
@@ -34,6 +38,14 @@ p {
 
   .workimage:hover {
     transform: scale(1.05);
+  }
+
+.contentimage {
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .contentimage:hover {
+    transform: scale(1.02);
   }
 
 @layer components {
@@ -63,8 +75,9 @@ p {
 }
 
 .contactus-image {
-    border: 30px solid #ffffff;
+    border: 30px solid white;
     border-image: linear-gradient(45deg, #3c0070, #1e65d1) 1;
+    height: 50%;
   }
   
 
@@ -241,6 +254,12 @@ section {
 
 .carousel-item {
     margin: 0.5rem;
+}
+
+@media (max-width: 500px) {
+    .dyllicense {
+        align-content: center;
+    }
 }
 
 

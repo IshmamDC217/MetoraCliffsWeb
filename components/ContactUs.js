@@ -19,7 +19,7 @@ const ContactUs = () => {
   return (
     <section className="container mx-auto py-16" style={{ fontFamily: "Adventure Subtitles", display: "flex", flexDirection: "column", alignItems: "center" }}>
       <Heading title="Contact Us" style={{ textAlign: "center" }} />
-      <div className="contact-form-and-image flex flex-wrap justify-center mt-10 gap-10 mr-2">
+      <div className="contact-form-and-image flex flex-wrap justify-center mt-10 gap-10 mr-1.5 ml-1">
         <motion.div className="contactus bg-[#58629c] p-14 py-16 rounded-md border w-[75%] mb-10" whileHover={{ y: -5 }}>
           <h2 className="text-2xl text-white font-bold mb-6">Don&apos;t worry, we don&apos;t bite!</h2>
           <form className="space-y-4">
@@ -70,12 +70,12 @@ const ContactUs = () => {
             </div>
           </form>
         </motion.div>
-        <div className="license contactus-image max-w-[1000px] w-full">
+        <div className="license contactus-image max-w-lg w-full">
           <Image src={MCbandpic} alt="" className="rounded-lg" />
         </div>
       </div>
-      <div className="license contact-footer mt-10 text-gray-400">
-        <p>&copy; 2023 Dylan Tann, Metora Cliffs. All rights reserved</p>
+      <div className="dyllicense contact-footer mt-10 text-white">
+        <p>&nbsp; &copy; 2023 Dylan Tann, Metora Cliffs. &nbsp; &nbsp; &nbsp; All rights reserved</p>
         {/* <p>Designed and Developed by Ishmam Ahmed.</p> */}
 
       </div>

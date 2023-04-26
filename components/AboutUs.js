@@ -20,10 +20,8 @@ const AboutUs = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
 
-        <div className='max-w-[900px] shadow-lg flex flex-col gap-4 px-8 py-14 bg-[#1a1b1fbe] text-white' style={{ display: 'flex', flexDirection: 'row' }}>
-        {/* className='bandFrame max-w-[900px] shadow-lg flex flex-col gap-4 px-8 py-14 bg-[#1a1b1fbe] text-white' */}
+        <div className='max-w-[900px] py-4 shadow-lg flex flex-col gap-4 text-white' style={{ display: 'flex', flexDirection: 'row', backgroundColor: '#1a1b1fbe' }}>
           <a ref={ref} className={`${inView ? 'show' : 'show'} intobss px-4`}> <Image src={nbandpic} width="600px" height="550px" alt="Band Pic" className="bandpic" /> </a>
-          {/* style={{marginLeft: "20px"}} style={{ display: 'flex', flexDirection: 'column' }}  */}
         </div>
 
         <div>

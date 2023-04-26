@@ -13,29 +13,30 @@ const Footer = () => {
       <div className="licensecontainer mx-auto px-4">
         <div className="flex justify-center py-2">
           <a href="https://instagram.com/metoracliffsmusic" rel="noopener noreferrer" className="mx-4">
-            <AiFillInstagram className="text-[#962fbf] text-3xl" />
+            <AiFillInstagram className="text-3xl" style={{ color: '#962fbf' }} />
           </a>
           <a href="https://youtube.com/@metoracliffs5994" rel="noopener noreferrer" className="mx-4">
-            <AiFillYoutube className="text-[#c4302b] text-3xl" />
+            <AiFillYoutube className="text-3xl" style={{ color: '#c4302b' }} />
           </a>
           <a href="https://facebook.com/metoracliffs" rel="noopener noreferrer" className="mx-4">
-            <AiFillFacebook className="text-[#3b5998] text-3xl" />
+            <AiFillFacebook className="text-3xl" style={{ color: '#3b5998' }} />
           </a>
           <a href="https://tiktok.com/@metoracliffs" rel="noopener noreferrer" className="mx-4">
-            <FaTiktok className="text-[#00f2ea] text-3xl" />
+            <FaTiktok className="text-3xl" style={{ color: '#00f2ea' }} />
           </a>
           <a href="https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6" rel="noopener noreferrer" className="mx-4">
-            <FaSpotify className="text-[#1db954] text-3xl" />
+            <FaSpotify className="text-3xl" style={{ color: '#1db954' }} />
           </a>
         </div>
-        <div className="flex flex-col md:flex-row md:justify-between">
+        <div className="flex flex-col md:flex-row md:justify-between mb-8">
           <div className="liclogo flex items-center">
             <Image
               src={bannerpart}
-              width="19px"
-              height="12px"
+              width="25%"
+              height="25%"
               alt="Metora Cliffs"
-              className="max-w-[80px] w-full"
+              className="px-3"
+              style={{ inlineSize: '150px' }}
             />
             <p className="text-white text-xl font-bold px-1">Metora Cliffs</p>
           </div>

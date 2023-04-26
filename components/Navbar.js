@@ -63,8 +63,8 @@ const Navbar = () => {
                     <BiImage />
                 </motion.a>
 
-                <motion.div className='md:hidden text-[24px]' variants={iconVariant}>
-                    <GiFire />
+                <motion.div className='md:hidden' variants={iconVariant}>
+                    <GiFire style={{fontSize: '26px'}}/>
                 </motion.div>
             </div>
         </div>
