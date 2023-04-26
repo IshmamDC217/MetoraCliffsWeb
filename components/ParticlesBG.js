@@ -17,6 +17,7 @@ const ParticlesBG = () => {
   return (
     <div id="particlesbg">
       <Particles
+        position="relative"
         id="tsparticles"
         particlesLoaded="particlesLoaded"
         init={particlesInit}

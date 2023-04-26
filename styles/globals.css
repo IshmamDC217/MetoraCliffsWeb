@@ -393,6 +393,8 @@ section {
     background-color: #7192bc;
   }
   
-  /* Galler css */
+  /* Galler css END*/
 
-  
+  .metorabanner{
+    position: absolute;
+  }
