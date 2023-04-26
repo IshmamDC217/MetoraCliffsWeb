@@ -20,14 +20,13 @@ const CustomNotification = ({ message, type = 'info', onClose }) => {
         position: 'fixed',
         top: 90,
         right: '40%',
-        // backgroundColor: '#08304e',
-        backgroundColor: '#12161c',
+        backgroundColor: '#08304e',
         color: 'white',
-        padding: '10px 20px',
-        borderRadius: 5,
+        padding: '8px 20px',
         boxShadow: '0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)',
         zIndex: 1000,
         cursor: 'pointer',
+        className: 'notif',
       }}
       onClick={handleClose}
     >
