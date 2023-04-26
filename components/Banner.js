@@ -89,7 +89,7 @@ const Banner = () => {
         color="green"
       />
       <div className="absolute bottom-10 text-center arrow-bounce">
-        <p className='text-white'>Scroll Down</p>
+        <p className='scd text-white'>Scroll Down</p>
         <FontAwesomeIcon icon={faChevronDown} style= {{color:"white", blockSize:"40px"}} />
       </div>
     </div>

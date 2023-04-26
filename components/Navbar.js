@@ -57,8 +57,7 @@ const Navbar = () => {
                 </div>
                 <p>&nbsp;</p>
 
-                <motion.a href="#" className='hidden md:flex border border-[#217ea0] px-2 py-2 mx-2 text-[#000000] rounded-[3px] items-center gap-2
-                                          hover:bg-[#217ea0] hover:text-white transition duration-200' whileHover={{ scale: 1.08 }} variants={iconVariant}>
+                <motion.a href="#" className='hidden md:flex border px-2 py-2 mx-2 items-center gap-2' whileHover={{ scale: 1.08, backgroundColor: '#217ea0', color: 'white' }} variants={iconVariant}>
                     Upcoming Gigs!
                     <BiImage />
                 </motion.a>

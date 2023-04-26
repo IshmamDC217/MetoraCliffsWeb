@@ -123,13 +123,14 @@ section {
 }
 
 .arrow-bounce {
+    margin-bottom: -10px;
     right: 45%;
     transform: translateX(-50%);
 }
 
 @media (max-width: 500px) {
     .arrow-bounce {
-        right: 37%;
+        right: 45%;
         transform: translateX(-50%);
     }
 }
@@ -142,9 +143,17 @@ section {
 }
 
 .absolute.bottom-10.text-center.arrow-bounce p {
-    margin-bottom: 10px;
+    margin-bottom: -5px;
 }
 
+@media (max-width: 500px) {
+    .absolute.bottom-10.text-center.arrow-bounce {
+        margin-bottom: -40px;
+    }
+    .scd {
+        display: none;
+    }
+}
  /* Arrow End */
 
 .intobs {
