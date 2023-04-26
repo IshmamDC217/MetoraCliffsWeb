@@ -74,10 +74,12 @@ const ContactUs = () => {
           <Image src={MCbandpic} alt="" className="rounded-lg" />
         </div>
       </div>
+      <div className="dyllicensed contact-footer mt-10 text-white">
+        <p>&copy; 2023 Dylan Tann, Metora Cliffs. All rights reserved</p>
+      </div>
       <div className="dyllicense contact-footer mt-10 text-white">
         <p>&nbsp; &copy; 2023 Dylan Tann, Metora Cliffs. &nbsp; &nbsp; &nbsp; All rights reserved</p>
         {/* <p>Designed and Developed by Ishmam Ahmed.</p> */}
-
       </div>
     </section>
   );

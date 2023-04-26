@@ -20,7 +20,7 @@ const OurContent = () => {
 
                         <SiYoutubemusic style={{ fontSize: '28px'}}/>
 
-                        <h2 className='font-medium text-2xl'>Music</h2>
+                        <h2 className='font-medium text-2xl'>Music</h2> 
                         <Image class="image" src={tm} alt="" />
 
                         <p>Our Originals</p>
@@ -50,7 +50,6 @@ const OurContent = () => {
 
                     </div>
                 </a>
-
             </div>
 
         </section>

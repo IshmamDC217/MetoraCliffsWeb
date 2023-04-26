@@ -35,12 +35,16 @@ p {
     margin: 10px;
     transition: transform 0.1s ease-in-out;
   }
+/* Remove width height and margin for a better desktop view */
 
   .workimage:hover {
     transform: scale(1.05);
   }
 
 .contentimage {
+    width: 80%;
+    height: 80%;
+    margin: 36px;
     transition: transform 0.1s ease-in-out;
   }
 
@@ -256,12 +260,23 @@ section {
     margin: 0.5rem;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
     .dyllicense {
         align-content: center;
     }
 }
 
+@media (max-width: 500px) {
+    .dyllicensed {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    .dyllicense {
+        display: none;
+    }
+}
 
 /* Galler css */
 
