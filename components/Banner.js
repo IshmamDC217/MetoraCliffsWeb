@@ -7,6 +7,9 @@ import Button from './Button';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import metorabanner from '../public/metorabanner.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+
 
 const Banner = () => {
   const fadeIn = useSpring({
@@ -72,9 +75,7 @@ const Banner = () => {
             <animated.div className="px-4" style={fadeIn}>
               {' '}
               <p>
-                Cited as one of{' '}
-                <strong className="text-[18px]">the bands of all time</strong>{' '}
-                in <strong className="text-[18px]">Leeds</strong>.
+                <strong>Cited</strong> as one of the bands of all time in <strong>Leeds</strong>.
               </p>
               <p>&nbsp;</p>
               <Button link="#" text="Contact Us" />
@@ -87,6 +88,10 @@ const Banner = () => {
         position="bottom-right"
         color="green"
       />
+      <div className="absolute bottom-10 text-center arrow-bounce">
+        <p className='text-white'>Scroll Down</p>
+        <FontAwesomeIcon icon={faChevronDown} style= {{color:"white", blockSize:"40px"}} />
+      </div>
     </div>
   );
 };

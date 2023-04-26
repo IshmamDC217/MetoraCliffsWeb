@@ -25,7 +25,7 @@ p {
     font-family: Lucida Console;
 }
 
-.mcContainer{
+.mcContainer {
     position: relative;
 }
 
@@ -34,23 +34,24 @@ p {
     height: 300px;
     margin: 10px;
     transition: transform 0.1s ease-in-out;
-  }
+}
+
 /* Remove width height and margin for a better desktop view */
 
-  .workimage:hover {
+.workimage:hover {
     transform: scale(1.05);
-  }
+}
 
 .contentimage {
     width: 80%;
     height: 80%;
     margin: 36px;
     transition: transform 0.1s ease-in-out;
-  }
+}
 
-  .contentimage:hover {
+.contentimage:hover {
     transform: scale(1.02);
-  }
+}
 
 @layer components {
     .btn {
@@ -82,8 +83,8 @@ p {
     border: 30px solid white;
     border-image: linear-gradient(45deg, #3c0070, #1e65d1) 1;
     height: 50%;
-  }
-  
+}
+
 
 body {
     background: #12161c;
@@ -95,6 +96,56 @@ section {
     align-content: center;
     min-height: 100vh;
 }
+
+/* global.css */
+@keyframes arrowBounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Arrow */
+.arrow-bounce {
+    animation: arrowBounce 2s infinite;
+}
+
+.arrow-bounce {
+    right: 45%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 500px) {
+    .arrow-bounce {
+        right: 37%;
+        transform: translateX(-50%);
+    }
+}
+
+.absolute.bottom-10.text-center.arrow-bounce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.absolute.bottom-10.text-center.arrow-bounce p {
+    margin-bottom: 10px;
+}
+
+ /* Arrow End */
 
 .intobs {
     opacity: 0;
@@ -156,6 +207,10 @@ section {
     }
 }
 
+/* .notif{
+    background: linear-gradient(#08304e, #12161c)
+} */
+
 .dylFrame {
     background:
         linear-gradient(45deg,
@@ -202,12 +257,12 @@ section {
 
 .toastProgress {
     background: #0e86e2 !important;
-  }
+}
 
 .contactus {
     background: #091e33 !important;
 }
-  
+
 @media (max-width: 500px) {
     .card_img {
         filter: grayscale(0);
@@ -219,6 +274,7 @@ section {
         font-size: small;
     }
 }
+
 @media (max-width: 500px) {
     .artbtn {
         font-size: small;
@@ -239,8 +295,9 @@ section {
 
 @media (max-width: 500px) {
     .moblicense {
-        display: none ;
+        display: none;
     }
+
     .liclogo {
         margin-left: 40px;
     }
@@ -248,7 +305,7 @@ section {
 
 @media (min-width: 500px) {
     .ishlicense {
-        display: none ;
+        display: none;
     }
 }
 
@@ -283,68 +340,68 @@ section {
 .gallerycontainer {
     max-width: 100%;
     padding: 0 1rem;
-  }
-  
-  .card_img {
+}
+
+.card_img {
     overflow: hidden;
     position: relative;
     border-radius: 0.5rem;
-  }
-  
-  .gallery-image {
+}
+
+.gallery-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  
-  .image {
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .card_img:hover .image {
-    transform: scale(1.1);
-  }
+}
 
-  /* Base styles */
+.image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card_img:hover .image {
+    transform: scale(1.1);
+}
+
+/* Base styles */
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #222;
     margin: 0;
     padding: 0;
-  }
-  
-  .gallerycontainer {
+}
+
+.gallerycontainer {
     font-family: Adventure Subtitles;
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  /* Card styles */
-  .card_img {
+}
+
+/* Card styles */
+.card_img {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-  }
-  
-  .card_img img {
+}
+
+.card_img img {
     width: 100%;
     height: auto;
     display: block;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease;
-  }
-  
-  .card_img:hover img {
+}
+
+.card_img:hover img {
     transform: scale(1.1);
-  }
-  
-  /* Image overlay */
-  .image-overlay {
+}
+
+/* Image overlay */
+.image-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -357,77 +414,77 @@ section {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-  }
-  
-  .card_img:hover .image-overlay {
+}
+
+.card_img:hover .image-overlay {
     opacity: 1;
-  }
-  
-  .image-overlay p {
+}
+
+.image-overlay p {
     font-size: 1.25rem;
     color: #fff;
     margin: 0;
-  }
-  
-  /* Grid layout */
-  .grid {
+}
+
+/* Grid layout */
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 20px;
-  }
-  
-  /* Buttons */
-  button {
+}
+
+/* Buttons */
+button {
     cursor: pointer;
     border: none;
     outline: none;
-  }
-  
-  .artbtn,
-  .photobtn,
-  .backbtn {
+}
+
+.artbtn,
+.photobtn,
+.backbtn {
     font-weight: 600;
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-  }
-  
-  .backbtn {
+}
+
+.backbtn {
     position: fixed;
     top: 30px;
     left: 30px;
     font-size: 1rem;
-  }
-  
-  .artbtn,
-  .photobtn {
+}
+
+.artbtn,
+.photobtn {
     font-size: 1.5rem;
-  }
-  
-  .artbtn:hover,
-  .backbtn:hover {
+}
+
+.artbtn:hover,
+.backbtn:hover {
     background-color: #0279ac;
-  }
-  
-  .photobtn:hover {
+}
+
+.photobtn:hover {
     background-color: #b267e1;
-  }
-  
-  /* Heading styles */
-  .heading {
+}
+
+/* Heading styles */
+.heading {
     text-align: center;
     margin-bottom: 30px;
     color: #fff;
-  }
-  
-  .heading h2 {
+}
+
+.heading h2 {
     font-size: 3rem;
     margin: 0;
     padding-bottom: 10px;
     position: relative;
-  }
-  
-  .heading h2::after {
+}
+
+.heading h2::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -436,10 +493,10 @@ section {
     width: 50px;
     height: 4px;
     background-color: #7192bc;
-  }
-  
-  /* Galler css END*/
+}
 
-  .metorabanner{
+/* Galler css END*/
+
+.metorabanner {
     position: absolute;
-  }
+}
