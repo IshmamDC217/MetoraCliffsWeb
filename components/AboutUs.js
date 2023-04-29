@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Heading from './Heading'
 import MCbandpic from '../components/MCbandpic.jpg'
-import nbandpic from '../components/gallery/nbandpic.jpg'
+import nbandpic2 from '../components/gallery/nbandpic2.jpg'
 import { AiFillInstagram } from 'react-icons/ai'
 import { AiFillYoutube } from 'react-icons/ai'
 import { AiFillFacebook } from 'react-icons/ai'
@@ -21,7 +21,7 @@ const AboutUs = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
 
         <div className='max-w-[900px] py-4 shadow-lg flex flex-col gap-4 text-white' style={{ display: 'flex', flexDirection: 'row', backgroundColor: '#1a1b1fbe' }}>
-          <a ref={ref} className={`${inView ? 'show' : 'show'} intobss px-4`}> <Image src={nbandpic} width="600px" height="550px" alt="Band Pic" className="bandpic" /> </a>
+          <a ref={ref} className={`${inView ? 'show' : 'show'} intobss px-4`}> <Image src={nbandpic2} alt="Band Pic" className="bandpic" /> </a>
         </div>
 
         <div>
