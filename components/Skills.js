@@ -97,7 +97,7 @@ const Skills = () => {
                                         <p>Pinneapple on Pizza</p>
                                         {dylEasterEgg ? <p class="max-w-[200px] text-sm">unless it&apos;s Pinneapple &apos;and&apos; Pizza</p> : null}
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className={`absolute h-[6px] w-[${dylEasterEgg ? "100%" : "70%"}]`} style={{height: '6px', width: '70%', backgroundColor: '#ffffff'}}>
+                                            <div className='absolute h-[6px]' style={{width: `${dylEasterEgg ? "100%" : "10%"}`, height: '6px', backgroundColor: '#ffffff' }}>
                                             </div>
                                         </div>
                                     </div>
@@ -165,7 +165,7 @@ const Skills = () => {
                                         <p>Fingering</p>
                                         {ishEasterEgg ? <p class="max-w-[200px] text-sm">unless it&apos;s my girlfriend, then 10/10 jkjk</p> : null}
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className={`absolute h-[6px] w-[${ishEasterEgg ? "100%" : "70%"}]`} style={{height: '6px', width: '70%', backgroundColor: '#000000'}}>
+                                            <div className='absolute h-[6px]' style={{height: '6px', width: `${ishEasterEgg ? "100%" : "70%"}`, backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>

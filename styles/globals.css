@@ -313,6 +313,12 @@ section {
 }
 
 @media (min-width: 500px) {
+    .notif {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
     .ishlicense {
         display: none;
     }

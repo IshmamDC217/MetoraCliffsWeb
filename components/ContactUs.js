@@ -33,12 +33,14 @@ const ContactUs = () => {
 
   return (
     <>
-      {showNotification && (
-        <CustomNotification
-          message="🖼️ Don&apos;t miss out on our Gallery!"
-          onClose={() => setShowNotification(false)}
-        />
-      )}
+      <div className="notif">
+        {showNotification && (
+          <CustomNotification
+            message="🖼️ Don&apos;t miss out on our Gallery!"
+            onClose={() => setShowNotification(false)}
+          />
+        )} 
+        </div>
       <section className="container mx-auto py-16" style={{ fontFamily: "Adventure Subtitles", display: "flex", flexDirection: "column", alignItems: "center" }}>
         <Heading title="Contact Us" style={{ textAlign: "center" }} />
         <div className="contact-form-and-image flex flex-wrap justify-center mt-10 gap-10 mr-1.5 ml-1">
