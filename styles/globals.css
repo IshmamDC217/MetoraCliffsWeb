@@ -510,8 +510,32 @@ button {
     background-color: #7192bc;
 }
 
+.gallerygrid {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .brick {
+    position: absolute;
+    margin-bottom: 10px;
+  }
+  
+  .card_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
 /* Galler css END*/
 
 .metorabanner {
     position: absolute;
+}
+
+@media (max-width: 600px) {
+    .skillbar {
+        max-width: 140px;
+    }
 }

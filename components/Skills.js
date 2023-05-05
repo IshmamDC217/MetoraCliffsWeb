@@ -55,7 +55,7 @@ const Skills = () => {
                                     <div>
                                         <p>Chug</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '70%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '70%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -63,7 +63,7 @@ const Skills = () => {
                                     <div>
                                         <p>Shred</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '60%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '60%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -71,7 +71,7 @@ const Skills = () => {
                                     <div>
                                         <p>Improv</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '95%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '95%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -79,7 +79,7 @@ const Skills = () => {
                                     <div>
                                         <p>Fingering</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '100%', backgroundColor: '#ffffff'}} >
+                                            <div className='skillbar absolute' style={{height: '6px', width: '100%', backgroundColor: '#ffffff'}} >
                                             </div>
                                         </div>
                                     </div>
@@ -87,7 +87,7 @@ const Skills = () => {
                                     <div>
                                         <p>Groove</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '70%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '70%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -97,7 +97,7 @@ const Skills = () => {
                                         <p>Pinneapple on Pizza</p>
                                         {dylEasterEgg ? <p class="max-w-[200px] text-sm">unless it&apos;s Pinneapple &apos;and&apos; Pizza</p> : null}
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute h-[6px]' style={{width: `${dylEasterEgg ? "100%" : "10%"}`, height: '6px', backgroundColor: '#ffffff' }}>
+                                            <div className='skillbar absolute h-[6px]' style={{width: `${dylEasterEgg ? "100%" : "10%"}`, height: '6px', backgroundColor: '#ffffff' }}>
                                             </div>
                                         </div>
                                     </div>
@@ -105,7 +105,7 @@ const Skills = () => {
                                     <div>
                                         <p>Chops</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '50%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '50%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -113,7 +113,7 @@ const Skills = () => {
                                     <div>
                                         <p>Blast Beat</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '80%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '80%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -123,8 +123,6 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* <div className='bg-[#7aace8] h-[2px] w-[800px] translate-y-1'></div> */}
 
                     <div className='ishFrame max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#f6cd61] text-black'>
                         <div className='max-w-[500px]'>
@@ -139,7 +137,7 @@ const Skills = () => {
                                     <div>
                                         <p>Chug</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '80%', backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '80%', backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -147,7 +145,7 @@ const Skills = () => {
                                     <div>
                                         <p>Shred</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '100%', backgroundColor: '#000000'}} >
+                                            <div className='skillbar absolute' style={{height: '6px', width: '100%', backgroundColor: '#000000'}} >
                                             </div>
                                         </div>
                                     </div>
@@ -155,7 +153,7 @@ const Skills = () => {
                                     <div>
                                         <p>Improv</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '90%', backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '90%', backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -165,7 +163,7 @@ const Skills = () => {
                                         <p>Fingering</p>
                                         {ishEasterEgg ? <p class="max-w-[200px] text-sm">unless it&apos;s my girlfriend, then 10/10 jkjk</p> : null}
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute h-[6px]' style={{height: '6px', width: `${ishEasterEgg ? "100%" : "70%"}`, backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute h-[6px]' style={{height: '6px', width: `${ishEasterEgg ? "100%" : "70%"}`, backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -173,7 +171,7 @@ const Skills = () => {
                                     <div>
                                         <p>Groove</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '60%', backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '60%', backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -181,7 +179,7 @@ const Skills = () => {
                                     <div>
                                         <p>Pinneapple on Pizza</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '100%', backgroundColor: '#000000'}} >
+                                            <div className='skillbar absolute' style={{height: '6px', width: '100%', backgroundColor: '#000000'}} >
                                             </div>
                                         </div>
                                     </div>
@@ -189,7 +187,7 @@ const Skills = () => {
                                     <div>
                                         <p>Chops</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '70%', backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '70%', backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -197,7 +195,7 @@ const Skills = () => {
                                     <div>
                                         <p>Blast Beat</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '60%', backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '60%', backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -223,7 +221,7 @@ const Skills = () => {
                                     <div>
                                         <p>Chug</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '100%', backgroundColor: '#ffffff'}} >
+                                            <div className='skillbar absolute' style={{height: '6px', width: '100%', backgroundColor: '#ffffff'}} >
                                             </div>
                                         </div>
                                     </div>
@@ -231,7 +229,7 @@ const Skills = () => {
                                     <div>
                                         <p>Shred</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '80%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '80%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -239,7 +237,7 @@ const Skills = () => {
                                     <div>
                                         <p>Improv</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '55%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '55%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -247,7 +245,7 @@ const Skills = () => {
                                     <div>
                                         <p>Fingering</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '60%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '60%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -255,7 +253,7 @@ const Skills = () => {
                                     <div>
                                         <p>Groove</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '50%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '50%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -263,7 +261,7 @@ const Skills = () => {
                                     <div>
                                         <p>Pinneapple on Pizza</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '100%', backgroundColor: '#ffffff'}} >
+                                            <div className='skillbar absolute' style={{height: '6px', width: '100%', backgroundColor: '#ffffff'}} >
                                             </div>
                                         </div>
                                     </div>
@@ -271,7 +269,7 @@ const Skills = () => {
                                     <div>
                                         <p>Chops</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '60%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '60%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -279,7 +277,7 @@ const Skills = () => {
                                     <div>
                                         <p>Blast Beat</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '40%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '40%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -305,7 +303,7 @@ const Skills = () => {
                                     <div>
                                         <p>Chug</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '40%', backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '40%', backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -313,7 +311,7 @@ const Skills = () => {
                                     <div>
                                         <p>Shred</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '40%', backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '40%', backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -321,7 +319,7 @@ const Skills = () => {
                                     <div>
                                         <p>Improv</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '85%', backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '85%', backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -329,7 +327,7 @@ const Skills = () => {
                                     <div>
                                         <p>Fingering</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '85%', backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '85%', backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -337,7 +335,7 @@ const Skills = () => {
                                     <div>
                                         <p>Groove</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '90%', backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '90%', backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -345,7 +343,7 @@ const Skills = () => {
                                     <div>
                                         <p>Pinneapple on Pizza</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '100%', backgroundColor: '#000000'}} >
+                                            <div className='skillbar absolute' style={{height: '6px', width: '100%', backgroundColor: '#000000'}} >
                                             </div>
                                         </div>
                                     </div>
@@ -353,7 +351,7 @@ const Skills = () => {
                                     <div>
                                         <p>Chops</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '85%', backgroundColor: '#000000'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '85%', backgroundColor: '#000000'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -361,7 +359,7 @@ const Skills = () => {
                                     <div>
                                         <p>Blast Beat</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '100%', backgroundColor: '#000000'}} >
+                                            <div className='skillbar absolute' style={{height: '6px', width: '100%', backgroundColor: '#000000'}} >
                                             </div>
                                         </div>
                                     </div>
@@ -372,7 +370,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    {/* <div className='bg-[#7aace8] h-[2px] w-[800px] translate-y-1'></div> */}
+
 
                     <div className='eddieFrame max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#ee4035] text-white'>
                         <div className='max-w-[500px]'>
@@ -387,7 +385,7 @@ const Skills = () => {
                                     <div>
                                         <p>Chug</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '60%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '60%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -395,7 +393,7 @@ const Skills = () => {
                                     <div>
                                         <p>Shred</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '65%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '65%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -403,7 +401,7 @@ const Skills = () => {
                                     <div>
                                         <p>Improv</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '80%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '80%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -411,7 +409,7 @@ const Skills = () => {
                                     <div>
                                         <p>Fingering</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '95%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '95%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -419,7 +417,7 @@ const Skills = () => {
                                     <div>
                                         <p>Groove</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '100%', backgroundColor: '#ffffff'}} >
+                                            <div className='skillbar absolute' style={{height: '6px', width: '100%', backgroundColor: '#ffffff'}} >
                                             </div>
                                         </div>
                                     </div>
@@ -427,7 +425,7 @@ const Skills = () => {
                                     <div>
                                         <p>Pinneapple on Pizza</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '100%', backgroundColor: '#ffffff'}} >
+                                            <div className='skillbar absolute' style={{height: '6px', width: '100%', backgroundColor: '#ffffff'}} >
                                             </div>
                                         </div>
                                     </div>
@@ -435,7 +433,7 @@ const Skills = () => {
                                     <div>
                                         <p>Chops</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '75%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '75%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
@@ -443,7 +441,7 @@ const Skills = () => {
                                     <div>
                                         <p>Blast Beat</p>
                                         <div className='relative bg-gray-400 h-[6px] mt-1'>
-                                            <div className='absolute' style={{height: '6px', width: '40%', backgroundColor: '#ffffff'}}>
+                                            <div className='skillbar absolute' style={{height: '6px', width: '40%', backgroundColor: '#ffffff'}}>
                                             </div>
                                         </div>
                                     </div>
