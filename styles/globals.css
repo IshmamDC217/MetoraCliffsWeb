@@ -534,8 +534,8 @@ button {
     position: absolute;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .skillbar {
         max-width: 140px;
     }
-}
+} */
