@@ -42,13 +42,14 @@ const ContactUs = () => {
           />
         )}
       </div>
-      <section className="container mx-auto py-16">
-        <Heading title="Contact Us" style={{ textAlign: "center" }} />
+      <section className="container mx-auto py-16 mt-20">
+
+        <Heading title="Contact Us" style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }} />
         <div className="contact-form-and-image flex flex-wrap justify-center mt-10 gap-10 mr-1.5 ml-1">
           <motion.div className="contactus bg-[#58629c] p-14 py-16 rounded-md border w-[75%] mb-10" whileHover={{ y: -5 }}>
             <h2 className="text-2xl text-white font-bold mb-6">Don&apos;t worry, we don&apos;t bite!</h2>
             <form className="space-y-4">
-              <motion.div whileHover={{ scale: 1.02 }} className="flex flex-col"> 
+              <motion.div whileHover={{ scale: 1.02 }} className="flex flex-col">
                 <label htmlFor="name" className="text-white mb-1">
                   Name
                 </label>
@@ -95,7 +96,7 @@ const ContactUs = () => {
               </div>
             </form>
           </motion.div>
-          <div style={{ display: 'flex', flexDirection: "column"}}>
+          <div style={{ display: 'flex', flexDirection: "column" }}>
             <div className="license contactus-image max-w-sm w-half">
               <Image src={MCbandpic} alt="" className="rounded-lg" />
             </div>
