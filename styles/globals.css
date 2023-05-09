@@ -539,3 +539,24 @@ button {
         max-width: 140px;
     }
 } */
+
+@media (max-width: 600px) {
+    .skillcard {
+        max-width: 20rem;
+    }
+    .slick-slide {
+        display: none;
+    }
+}
+
+/* .membercard {
+    margin-left: 10px;
+    margin-right: 10px;
+  } */
+
+  .slick-slide {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+  
