@@ -6,15 +6,21 @@
     font-family: 'Adventure Subtitles';
     src: url('./fonts/adventure_subtitles/AdventureSubtitles.woff2');
 }
+@font-face {
+    font-family: 'Fira Code';
+    src: url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
+}
 
 html,
 body {
-    font-family: Lucida Console;
+    font-family: Fira Code;
+    font-size: large;
 }
 
 h1 {
     color: white;
     font-family: Adventure Subtitles;
+    font-size: larger;
 }
 
 h2 {
@@ -22,7 +28,8 @@ h2 {
 }
 
 p {
-    font-family: Lucida Console;
+    font-family: Fira Code;
+    font-size: large;
 }
 
 .mcContainer {

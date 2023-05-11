@@ -32,7 +32,7 @@ const Navbar = () => {
                     </motion.div>
 
                     <motion.div whileHover={{ scale: 1.08 }} variants={linkVariant}>
-                        <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/'>
+                        <Link class="scale-90 hover:scale-100 ease-in duration-200" href='/songs'>
                             Songs
                         </Link>
                     </motion.div>
