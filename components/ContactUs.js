@@ -42,9 +42,9 @@ const ContactUs = () => {
           />
         )}
       </div>
-      <section className="container mx-auto py-16 mt-20">
+      <section className="contactcontainer mx-auto py-16 mt-20">
 
-        <Heading title="Contact Us" style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }} />
+        <h1 className='text-3xl' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>- Contact Us -</h1>
         <div className="contact-form-and-image flex flex-wrap justify-center mt-10 gap-10 mr-1.5 ml-1">
           <motion.div className="contactus bg-[#58629c] p-14 py-16 rounded-md border w-[75%] mb-10" whileHover={{ y: -5 }}>
             <h2 className="text-2xl text-white font-bold mb-6">Don&apos;t worry, we don&apos;t bite!</h2>
@@ -105,7 +105,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="dyllicensed contact-footer mt-10 text-white">
+        <div className="dyllicensed contact-footer mt-10 ml-20 text-white">
           <p>&copy; 2023 Dylan Tann, Metora Cliffs. All rights reserved</p>
         </div>
         <div className="dyllicense contact-footer mt-10 text-white">
