@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import metorabanner from '../public/metorabanner.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import Link from 'next/link';
 
 
 const Banner = () => {
@@ -75,10 +76,10 @@ const Banner = () => {
             <animated.div className="px-4" style={fadeIn}>
               {' '}
               <p>
-                <strong>Cited</strong> as one of the bands of all time in <strong>Leeds</strong>.
+                <strong className='text-lg'>Cited</strong> as one of the bands of all time in <strong className='text-lg'>Leeds</strong>.
               </p>
               <p>&nbsp;</p>
-              <Button link="#" text="Contact Us" />
+              <Button link="/contact" text="Contact Us" />
             </animated.div>
           </div>
         </div>
