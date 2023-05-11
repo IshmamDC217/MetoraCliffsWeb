@@ -6,6 +6,7 @@ import Work from "../components/Work"
 import AboutUs from "../components/AboutUs"
 import OurContent from "../components/OurContent"
 import Skills from "../components/Skills"
+import SkillsMob from "../components/SkillsMob"
 import ParticlesBG from '../components/ParticlesBG'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
@@ -28,10 +29,15 @@ export default function Home() {
 
       <main>
         <Banner />
+        <p>&nbsp;</p>
         <Work />
         <AboutUs />
         <OurContent />
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <Skills />
+        <SkillsMob />
         <ContactUs />
         <ParticlesBG />
         <Footer />
