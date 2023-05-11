@@ -29,7 +29,7 @@ const Banner = () => {
         objectFit="cover"
         alt="Metora Cliffs"
       />
-      <div className="absolute inset-0 flex items-center justify-center mx-0 lg:mx-32">
+      <div className="absolute inset-0 flex items-center justify-center mr-2 lg:mx-32">
         <a className="px-4">
           <Image
             src={bannerpart}

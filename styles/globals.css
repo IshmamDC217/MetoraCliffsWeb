@@ -108,6 +108,7 @@ p {
 @media (min-width: 500px) {
     .bannerpart {
         display: block !important;
+        scale: 1.1;
     }
 }
 
