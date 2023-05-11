@@ -12,11 +12,11 @@ import { useInView } from 'react-intersection-observer';
 const OurContent = () => {
     const { ref, inView, entry } = useInView()
     return (
-        <section className='container mx-auto py-10 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
+        <section className='contentontainer' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }} >
             <Heading title="Our Content" />
-            <div ref={ref} className={`${inView ? 'show' : null} intobs grid grid-cols-1 md:grid-cols-3 gap-6`}>
+            <div ref={ref} className={`${inView ? 'show' : null} intobs grid grid-cols-1  md:grid-cols-3 gap-6` }>
                 <a class="contentimage" href="https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6">
-                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 text-white' style={{ backgroundColor: '#e95550'}}>
+                    <div className='max-w-[500px] shadow-lg flex flex-col px-8 py-10 text-white' style={{ backgroundColor: '#e95550'}}>
 
                         <SiYoutubemusic style={{ fontSize: '28px'}}/>
 
@@ -28,7 +28,7 @@ const OurContent = () => {
                 </a>
 
                 <a class="contentimage" href="https://www.youtube.com/@metoracliffs5994">
-                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 text-white' style={{ backgroundColor: '#feb833'}}>
+                    <div className='max-w-[500px] shadow-lg flex flex-col px-8 py-10 text-white' style={{ backgroundColor: '#feb833'}}>
 
                         <BsFillCameraVideoFill style={{ fontSize: '28px'}}/>
 
@@ -40,7 +40,7 @@ const OurContent = () => {
                 </a>
 
                 <a class="contentimage" href="">
-                    <div className='max-w-[500px] shadow-lg flex flex-col gap-4 px-8 py-10 text-white' style={{ backgroundColor: '#48929c'}}>
+                    <div className='max-w-[500px] shadow-lg flex flex-col px-8 py-10 text-white' style={{ backgroundColor: '#48929c'}}>
 
                         <BsMusicNoteList style={{ fontSize: '28px'}}/>
 
