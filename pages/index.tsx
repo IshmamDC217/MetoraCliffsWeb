@@ -31,7 +31,13 @@ export default function Home() {
         <Banner />
         <p>&nbsp;</p>
         <Work />
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <AboutUs />
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <OurContent />
         <p>&nbsp;</p>
         <p>&nbsp;</p>
