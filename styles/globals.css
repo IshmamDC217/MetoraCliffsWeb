@@ -6,9 +6,15 @@
     font-family: 'Adventure Subtitles';
     src: url('./fonts/adventure_subtitles/AdventureSubtitles.woff2');
 }
+
 @font-face {
     font-family: 'Fira Code';
     src: url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
+}
+
+@font-face {
+    font-family: 'Sen';
+    src: url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
 }
 
 html,
@@ -139,7 +145,7 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 200vh;
 }
 
 /* global.css */
