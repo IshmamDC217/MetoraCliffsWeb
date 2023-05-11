@@ -36,6 +36,38 @@ p {
     transition: transform 0.1s ease-in-out;
 }
 
+@media (max-width: 500px) {
+
+    .mcContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .workimage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        margin: 10px;
+        padding: 0%;
+    }
+
+    .caption {
+        font-family: 'Adventure Subtitles';
+        font-size: 1rem;
+        position: relative;
+    }
+    .workimage + .workimage {
+        margin-top: 2rem;
+      }
+}
+
+
 /* Remove width height and margin for a better desktop view */
 
 .workimage:hover {
@@ -150,11 +182,13 @@ section {
     .absolute.bottom-10.text-center.arrow-bounce {
         margin-bottom: -40px;
     }
+
     .scd {
         display: none;
     }
 }
- /* Arrow End */
+
+/* Arrow End */
 
 .intobs {
     opacity: 0;
@@ -514,19 +548,19 @@ button {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  .brick {
+}
+
+.brick {
     position: absolute;
     margin-bottom: 10px;
-  }
-  
-  .card_img {
+}
+
+.card_img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  
+}
+
 
 /* Galler css END*/
 
@@ -544,6 +578,7 @@ button {
     .skillcard {
         max-width: 20rem;
     }
+
     .slick-slide {
         display: none;
     }
@@ -554,9 +589,7 @@ button {
     margin-right: 10px;
   } */
 
-  .slick-slide {
+.slick-slide {
     margin-left: 1px;
     margin-right: 1px;
-  }
-
-  
+}
