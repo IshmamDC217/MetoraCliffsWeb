@@ -145,7 +145,13 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 200vh;
+    min-height: 100vh;
+}
+
+@media (max-width: 500px) {
+    section {
+        min-height: 150vh;
+    }
 }
 
 /* global.css */
