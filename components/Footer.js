@@ -28,7 +28,9 @@ const Footer = () => {
             <FaSpotify className="text-3xl" style={{ color: '#1db954' }} />
           </a>
         </div>
+        
         <div className="flex flex-col md:flex-row md:justify-between mb-8">
+          
           <div className="liclogo flex items-center">
             <Image
               src={bannerpart}
@@ -38,10 +40,12 @@ const Footer = () => {
               className="px-3"
               style={{ inlineSize: '150px' }}
             />
+            
             <p className="text-white text-xl font-bold px-1">Metora Cliffs</p>
           </div>
+          <p className="moblicense text-gray-400 text-sm mr-0 lg:mr-10 mt-0 lg:mt-4">&copy; 2023 Licensed by Ishmam Ahmed. All rights reserved</p>
           <div className="flex items-center mt-4 ">
-            <p className="moblicense text-gray-400 text-sm pr-80">&copy; 2023 Licensed by Ishmam Ahmed. All rights reserved</p>
+            
             <div className="flex space-x-4">
               <a href="#" className="license text-white hover:text-gray-400 transition duration-300">Terms of Use</a>
               <a href="#" className="license text-white hover:text-gray-400 transition duration-300">Privacy Policy</a>
