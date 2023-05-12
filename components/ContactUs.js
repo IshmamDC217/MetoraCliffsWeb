@@ -34,14 +34,15 @@ const ContactUs = () => {
 
   return (
     <>
-      <div className="notif">
+      '''CAN BE FOR SPECIAL EVENTS'''
+      {/* <div className="notif">
         {showNotification && (
           <CustomNotification
             message="🖼️ Don&apos;t miss out on our Gallery!"
             onClose={() => setShowNotification(false)}
           />
         )}
-      </div>
+      </div> */}
       <section className="contactcontainer mx-auto py-16 mt-20">
 
         <h1 className='text-3xl' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>- Contact Us -</h1>
@@ -105,10 +106,10 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="dyllicensed contact-footer mt-10 ml-20 text-white">
+        <div className="dyllicensed contact-footer text-white text-center">
           <p>&copy; 2023 Dylan Tann, Metora Cliffs. All rights reserved</p>
         </div>
-        <div className="dyllicense contact-footer mt-10 text-white">
+        <div className="dyllicense contact-footer text-white text-center">
           <p>&nbsp; &copy; 2023 Dylan Tann, Metora Cliffs. All rights reserved</p>
           {/* <p>Designed and Developed by Ishmam Ahmed.</p> */}
         </div>
