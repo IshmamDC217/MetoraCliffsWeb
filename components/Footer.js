@@ -37,19 +37,19 @@ const Footer = () => {
               width="25%"
               height="25%"
               alt="Metora Cliffs"
-              className="px-3"
+              className="pr-8 lg:pr-0"
               style={{ inlineSize: '150px' }}
             />
             
-            <p className="text-white text-xl font-bold px-1">Metora Cliffs</p>
+            <p className="text-white text-xl font-bold text-center">Metora Cliffs</p>
           </div>
-          <p className="moblicense text-gray-400 text-sm mr-0 lg:mr-10 mt-0 lg:mt-4">&copy; 2023 Licensed by Ishmam Ahmed. All rights reserved</p>
+          <p className="moblicense text-gray-400 text-sm mr-0 lg:mr-10 mt-0 lg:mt-4 text-center">&copy; 2023 Licensed by Ishmam Ahmed. All rights reserved</p>
           <div className="flex items-center mt-4 ">
             
             <div className="flex space-x-4">
               <a href="#" className="license text-white hover:text-gray-400 transition duration-300">Terms of Use</a>
               <a href="#" className="license text-white hover:text-gray-400 transition duration-300">Privacy Policy</a>
-              <a href="#" className="ishlicense text-white hover:text-gray-400 transition duration-300 px-7">@ 2023 Licensed by Ishmam Ahmed</a>
+              <a href="#" className="ishlicense text-white hover:text-gray-400 transition duration-300 text-center">&copy; 2023 Licensed by Ishmam Ahmed</a>
             </div>
           </div>
         </div>
