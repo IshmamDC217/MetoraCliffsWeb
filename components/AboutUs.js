@@ -10,6 +10,7 @@ import { FaTiktok } from 'react-icons/fa';
 import { FaSpotify } from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
 
+
 const AboutUs = () => {
   const { ref: ref1, inView: inView1, entry: entry1 } = useInView({
     threshold: 0.95, // Adjust the threshold value as per your requirement
