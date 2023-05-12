@@ -34,7 +34,7 @@ const ContactUs = () => {
 
   return (
     <>
-      '''CAN BE FOR SPECIAL EVENTS'''
+      {/* '''CAN BE FOR SPECIAL EVENTS''' */}
       {/* <div className="notif">
         {showNotification && (
           <CustomNotification
