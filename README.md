@@ -28,12 +28,12 @@ Metora Cliffs Web is the official website for Metora Cliffs, a video game-inspir
 2. Navigate to the project directory:
 
    ```bash
-   git clone https://github.com/IshmamDC217/MetoraCliffsWeb.git
+   cd MetoraCliffsWeb
    
 3. Install the project dependencies:
 
    ```bash
-   git clone https://github.com/IshmamDC217/MetoraCliffsWeb.git
+   npm install
    
 ## Running the Development Server
 
