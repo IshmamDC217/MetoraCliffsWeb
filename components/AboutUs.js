@@ -26,7 +26,7 @@ const AboutUs = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
         <div className='max-w-[900px] py-4 shadow-lg flex flex-col gap-4 text-white' style={{ display: 'flex', flexDirection: 'row', backgroundColor: '#1a1b1fbe' }}>
-          <a ref={ref1} className={`${inView1 ? 'show' : ''} intobss px-4`}>
+          <a ref={ref1} className= 'px-4'>
             <Image src={nbandpic2} alt="Band Pic" className="bandpic w-full h-full" />
           </a>
         </div>
@@ -41,10 +41,10 @@ const AboutUs = () => {
 
           <div className='flex items-center justify-between w-[300px]'>
             <div className='flex flex-col gap-6'>
-              <p>&nbsp;</p>
+  
               <div className='flex gap-4 items-center font-medium' style={{ color: '#962fbf', fontSize: '1em' }}>
-                <AiFillInstagram className={`${inView2 ? 'show' : ''} intobssr`} />
-                <a className={`${inView2 ? 'show' : ''} intobssr text-white`} href="https://instagram.com/metoracliffsmusic" rel="noopener noreferrer">
+                <AiFillInstagram className={`${inView2 ? 'show' : ''} intobssr mt-4`} />
+                <a className={`${inView2 ? 'show' : ''} intobssr text-white mt-4`} href="https://instagram.com/metoracliffsmusic" rel="noopener noreferrer">
                   Instagram
                 </a>
               </div>
