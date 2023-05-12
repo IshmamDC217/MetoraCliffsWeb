@@ -30,8 +30,8 @@ const Banner = () => {
         objectFit="cover"
         alt="Metora Cliffs"
       />
-      <div className="absolute inset-0 flex items-center justify-center mr-2 lg:mx-32">
-        <a className="px-4">
+      <div className="absolute inset-0 flex items-center justify-center lg:mx-32">
+        <a>
           <Image
             src={bannerpart}
             width="400px"
@@ -40,7 +40,7 @@ const Banner = () => {
             className="bannerpart"
           />
         </a>
-        <div className="container mx-auto px-4">
+        <div className="container lg:mx-5">
           <div className="max-w-[450px] text-white flex flex-col gap[40px]">
             <animated.div style={fadeIn}>
               <p>&nbsp;</p>
@@ -48,7 +48,7 @@ const Banner = () => {
               <animated.h2 className="text-4xl px-4" style={fadeIn}>
                 Welcome to
               </animated.h2>
-              <animated.h1 className="text-5xl px-4" style={fadeIn}>
+              <animated.h1 className="text-5xl px-4" style={{ ...fadeIn, letterSpacing: '0.05em' }}>
                 Metora Cliffs
               </animated.h1>
               <animated.h4 className="text-2xl mt-3 px-4" style={fadeIn}>
@@ -72,7 +72,6 @@ const Banner = () => {
               className="bg-[#217ea0] h-[4px] w-[250px] ml-4"
               style={fadeIn}
             ></animated.div>{' '}
-            <p>&nbsp;</p>
             <animated.div className="px-4" style={fadeIn}>
               {' '}
               <p>
@@ -91,7 +90,7 @@ const Banner = () => {
       />
       <div className="absolute bottom-10 text-center arrow-bounce">
         <p className='scd text-white'>Scroll Down</p>
-        <FontAwesomeIcon icon={faChevronDown} style= {{color:"white", blockSize:"40px"}} />
+        <FontAwesomeIcon icon={faChevronDown} style={{ color: "white", blockSize: "40px" }} />
       </div>
     </div>
   );
