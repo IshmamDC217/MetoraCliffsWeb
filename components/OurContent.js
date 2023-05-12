@@ -12,9 +12,9 @@ import { useInView } from 'react-intersection-observer';
 const OurContent = () => {
     const { ref, inView, entry } = useInView()
     return (
-        <section className='contentontainer' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }} >
+        <section className='' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }} >
             <Heading title="Our Content" />
-            <div ref={ref} className={`${inView ? 'show' : null} intobs grid grid-cols-1  md:grid-cols-3 gap-6` }>
+            <div ref={ref} className={`${inView ? 'show' : null} intobs grid grid-cols-1 md:grid-cols-3 gap-6` }>
                 <a class="contentimage" href="https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6">
                     <div className='max-w-[500px] shadow-lg flex flex-col px-8 py-10 text-white' style={{ backgroundColor: '#e95550'}}>
 
