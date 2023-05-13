@@ -75,7 +75,7 @@ const Banner = () => {
             <animated.div className="px-4" style={fadeIn}>
               {' '}
               <p>
-                <strong className='text-lg'>Cited</strong> as one of the bands of all time in <strong className='text-lg'>Leeds</strong>.
+                <strong className='text-lg'>Cited</strong> as one of the bands of <strong className='text-lg'>all time</strong> in <strong className='text-lg'>Leeds</strong>.
               </p>
               <p>&nbsp;</p>
               <Button link="/contact" text="Contact Us" />
