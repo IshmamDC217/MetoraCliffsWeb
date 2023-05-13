@@ -25,9 +25,9 @@ const AboutUs = () => {
       <Heading title="About Us" />
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
-        <div className='max-w-[900px] py-4 shadow-lg flex flex-col gap-4 text-white' style={{ display: 'flex', flexDirection: 'row', backgroundColor: '#1a1b1fbe' }}>
+        <div className='max-w-[900px] py-4 shadow-lg flex flex-col gap-4 text-white my-auto' style={{ display: 'flex', flexDirection: 'row', backgroundColor: '#1a1b1fbe' }}>
           <a ref={ref1} className= 'px-4'>
-            <Image src={nbandpic2} alt="Band Pic" className="bandpic w-full h-full" />
+            <Image src={nbandpic2} alt="Band Pic" className="bandpic w-auto h-auto" />
           </a>
         </div>
 
@@ -35,8 +35,8 @@ const AboutUs = () => {
           <div className='max-w-[800px]'>
             <p>&nbsp;</p>
             <h2 ref={ref2} className={`${inView2 ? 'show' : ''} intobssr`}></h2>
-            <h2 className='text-lg font-bold mt-1 mb-6'>A Progressive Rock band based in Leeds</h2>
-            <p className={`${inView2 ? 'show' : ''} intobssr text-white`}>Fusing Prog Rock/Metal with video game synth melodies, Metora Cliffs appeal to Prog fanatics and casual listeners alike. Taking inspiration from modern & classic prog/video game music composition like that of Nintendo & Sega, their live shows and 3 singles showcase their enticing sound. The band consists of Dylan Tann (vocals), Ivan Knight (keyboard), Ish Ahmed & Alexander Kelk (guitars), Eddie Hyndes (bass) & Louis Walker (drums).</p>
+            <h2 className='text-lg font-bold mt-1 mb-6' style={{letterSpacing: '0.05em' }}>A Progressive Rock band based in Leeds</h2>
+            <p className={`${inView2 ? 'show' : ''} intobssr text-white text-xs lg:text-base`}>Fusing Prog Rock/Metal with video game synth melodies, Metora Cliffs appeal to Prog fanatics and casual listeners alike. Taking inspiration from modern & classic prog/video game music composition like that of Nintendo & Sega, their live shows and 3 singles showcase their enticing sound. The band consists of Dylan Tann (vocals), Ivan Knight (keyboard), Ish Ahmed & Alexander Kelk (guitars), Eddie Hyndes (bass) & Louis Walker (drums).</p>
           </div>
 
           <div className='flex items-center justify-between w-[300px]'>
@@ -44,34 +44,34 @@ const AboutUs = () => {
   
               <div className='flex gap-4 items-center font-medium' style={{ color: '#962fbf', fontSize: '1em' }}>
                 <AiFillInstagram className={`${inView2 ? 'show' : ''} intobssr mt-4`} />
-                <a className={`${inView2 ? 'show' : ''} intobssr text-white mt-4`} href="https://instagram.com/metoracliffsmusic" rel="noopener noreferrer">
+                <a className={`${inView2 ? 'show' : ''} intobssr text-white text-sm lg:text-lg mt-4`} href="https://instagram.com/metoracliffsmusic" rel="noopener noreferrer">
                   Instagram
                 </a>
               </div>
               <div className='flex gap-4 items-center font-medium' style={{ color: '#c4302b', fontSize: '1em' }}>
                 <AiFillYoutube className={`${inView2 ? 'show' : ''} intobssr`} />
-                <a className={`${inView2 ? 'show' : ''} intobssr text-white`} href="https://youtube.com/@metoracliffs5994" rel="noopener noreferrer">
+                <a className={`${inView2 ? 'show' : ''} intobssr text-white text-sm lg:text-lg`} href="https://youtube.com/@metoracliffs5994" rel="noopener noreferrer">
                   Youtube
                 </a>
               </div>
 
               <div className='flex gap-4 items-center font-medium' style={{ color: '#3b5998', fontSize: '1em' }}>
                 <AiFillFacebook className={`${inView2 ? 'show' : ''} intobssr`} />
-                <a className={`${inView2 ? 'show' : ''} intobssr text-white`} href="https://facebook.com/metoracliffs" rel="noopener noreferrer">
+                <a className={`${inView2 ? 'show' : ''} intobssr text-white text-sm lg:text-lg`} href="https://facebook.com/metoracliffs" rel="noopener noreferrer">
                   Facebook
                 </a>
               </div>
 
               <div className='flex gap-4 items-center font-medium' style={{ color: '#00f2ea', fontSize: '1em' }}>
                 <FaTiktok className={`${inView2 ? 'show' : ''} intobssr`} />
-                <a className={`${inView2 ? 'show' : ''} intobssr text-white`} href="https://tiktok.com/@metoracliffs" rel="noopener noreferrer">
+                <a className={`${inView2 ? 'show' : ''} intobssr text-white text-sm lg:text-lg`} href="https://tiktok.com/@metoracliffs" rel="noopener noreferrer">
                   TikTok
                 </a>
               </div>
 
               <div className='flex gap-4 items-center font-medium' style={{ color: '#1db954', fontSize: '1em' }}>
                 <FaSpotify className={`${inView2 ? 'show' : ''} intobssr`} />
-                <a className={`${inView2 ? 'show' : ''} intobssr text-white`} href="https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6" rel="noopener noreferrer">
+                <a className={`${inView2 ? 'show' : ''} intobssr text-white text-sm lg:text-lg`} href="https://open.spotify.com/artist/7L8GCBu7rpT4nWglH7d0X6" rel="noopener noreferrer">
                   Spotify
                 </a>
               </div>
