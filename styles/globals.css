@@ -9,12 +9,7 @@
 
 @font-face {
     font-family: 'Fira Code';
-    src: url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
-}
-
-@font-face {
-    font-family: 'Sen';
-    src: url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
+    src: url('./fonts/adventure_subtitles/FiraCode-Regular.woff2');
 }
 
 html,
@@ -87,9 +82,11 @@ p {
 }
 
 /* Remove width height and margin for a better desktop view */
+@media (min-width: 500px) {
 
-.workimage:hover {
-    transform: scale(1.05);
+    .workimage:hover {
+        transform: scale(1.05);
+    }
 }
 
 .contentimage {
@@ -656,6 +653,7 @@ button {
         align-items: center;
         justify-content: center;
     }
+
     .skillscontainer {
         display: none;
     }
@@ -666,4 +664,3 @@ button {
         display: none;
     }
 }
-
