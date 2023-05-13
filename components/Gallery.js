@@ -75,7 +75,7 @@ const Gallery = () => {
               transition={{ duration: 0.5 }}
             >
               <p className='text-white text-center mb-4'>Check out our <strong className='text-[20px] text-[#0290bc]'>Artwork</strong> or our <strong className='text-[20px] text-[#b267e1]'>Photography</strong> by clicking one of the two options below:</p>
-              <div className='flex justify-center space-x-5'>
+              <div className='flex justify-center'>
                 <button
                   className='artbtn bg-[#0279ac] text-white text-2xl rounded-lg hover:bg-blue-800 transition duration-200 ease-in'
                   onClick={() => handleCategoryClick('artwork')}
