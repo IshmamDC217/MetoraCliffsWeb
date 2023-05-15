@@ -82,6 +82,7 @@ const Skills = () => {
             >
                 <div className='skillcards text-white md:grid-cols-1 max-w-sm lg:max-w-7xl'>
                     <Slider {...settings}>
+
                         <div className='dylFrame shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#0392cf] text-white'>
                             <div className='max-w-[500px]'>
                                 <a className='px-4'> <Image src={Dylan} width="350px" height="300px" alt="Single Shot" className="Dylan" /> </a>
@@ -90,7 +91,7 @@ const Skills = () => {
                                 <div className='cardcontainer'>
                                     <GiMicrophone className='text-[40px]' />Vocalist<p>&nbsp;</p>
                                     <h2 className='text-xl font-bold mt-1 mb-10'> Dylan Tann</h2>
-                                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 -mt-5'>
+                                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-5'>
                                         <div>
                                             <p>Chug</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -171,7 +172,7 @@ const Skills = () => {
                                 <div className='cardcontainer'>
                                     <GiGuitar className='text-[40px]' />Guitarist<p>&nbsp;</p>
                                     <h2 className='text-xl font-bold mt-1 mb-10 text-black'> Ish Ahmed</h2>
-                                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 -mt-5'>
+                                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-5'>
 
                                         <div>
                                             <p>Chug</p>
@@ -255,7 +256,7 @@ const Skills = () => {
                                 <div className='cardcontainer'>
                                     <GiGuitar className='text-[40px]' />Guitarist<p>&nbsp;</p>
                                     <h2 className='text-xl font-bold mt-1 mb-10'> Alexander Kelk</h2>
-                                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 -mt-5'>
+                                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-5'>
 
                                         <div>
                                             <p>Chug</p>
@@ -337,7 +338,7 @@ const Skills = () => {
                                 <div className='cardcontainer'>
                                     <GiDrumKit className='text-[40px]' />Drummer<p>&nbsp;</p>
                                     <h2 className='text-xl font-bold mt-1 mb-10 text-black'> Louis Walker</h2>
-                                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 -mt-5'>
+                                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-5'>
 
                                         <div>
                                             <p>Chug</p>
@@ -417,7 +418,7 @@ const Skills = () => {
                                 <div className='cardcontainer'>
                                     <GiGuitarBassHead className='text-[40px]' />Bassist<p>&nbsp;</p>
                                     <h2 className='text-xl font-bold mt-1 mb-10'> Eddie Hyndes</h2>
-                                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 -mt-5'>
+                                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-5'>
 
                                         <div>
                                             <p>Chug</p>
