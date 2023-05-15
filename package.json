@@ -34,6 +34,7 @@
     "react-native-svg": "^13.8.0",
     "react-particles": "^2.9.3",
     "react-responsive-carousel": "^3.2.23",
+    "react-responsive-masonry": "^2.1.7",
     "react-slick": "^0.29.0",
     "react-spring": "^9.7.1",
     "react-toastify": "^9.1.2",

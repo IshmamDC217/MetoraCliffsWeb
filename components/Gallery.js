@@ -6,6 +6,7 @@ import Heading from './Heading';
 import { artworkImages, photographyImages } from './gallery/allImages';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -25,24 +26,30 @@ const Gallery = () => {
   });
 
   const renderImages = (images) => (
-    <div className='grid'>
-      {images.map((image, index) => (
-        <motion.a
-          key={index}
-          className='card_img scale-90 hover:scale-100 ease-in duration-200 cursor-pointer'
-          onClick={() => setSelectedImage(image)}
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.8 }}
-          transition={{ duration: 0.3 }}
-        >
-          <div className='shadow-lg image'>
-            <div className='relative group'>
-              <Image className='image' src={image.src} alt={image.title} />
-            </div>
-          </div>
-        </motion.a>
-      ))}
+    <div className='gallery-grid'>
+      <ResponsiveMasonry
+        columnsCountBreakPoints={{ 350: 1, 600: 2, 900: 3, 1100: 5 }}
+      >
+        <Masonry style={{alignItems: "baseline"}} gutter="0.5em">
+          {images.map((image, index) => (
+            <motion.a
+              key={index}
+              className='card_img scale-90 hover:scale-100 ease-in duration-200 cursor-pointer'
+              onClick={() => setSelectedImage(image)}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8 }}
+              transition={{ duration: 0.3 }}
+            >
+              <div className='shadow-lg image'>
+                <div className='relative group'>
+                  <Image className='image' src={image.src} alt={image.title} />
+                </div>
+              </div>
+            </motion.a>
+          ))}
+        </Masonry>
+      </ResponsiveMasonry>
     </div>
   );
 
@@ -58,12 +65,12 @@ const Gallery = () => {
         <Heading title='Gallery' />
         {selectedCategory && (
           <motion.button
-          className='backbtn absolute top-20 mt-20 bg-gray-700 text-white text-sm px-4 py-2 rounded-lg hover:bg-gray-800 transition duration-200 ease-in'
-          onClick={() => setSelectedCategory(null)}
-          style={{ zIndex: 10 }}
-        >
-          Go Back
-        </motion.button>
+            className='backbtn absolute top-20 mt-20 bg-gray-700 text-white text-sm px-4 py-2 rounded-lg hover:bg-gray-800 transition duration-200 ease-in'
+            onClick={() => setSelectedCategory(null)}
+            style={{ zIndex: 10 }}
+          >
+            Go Back
+          </motion.button>
         )}
 
         <AnimatePresence>
@@ -128,7 +135,7 @@ const Gallery = () => {
           )}
         </AnimatePresence>
       </section>
-      <ToastContainer progressClassName="toastProgress" position='bottom-right'/>
+      <ToastContainer progressClassName="toastProgress" position='bottom-right' />
     </div>
   );
 };

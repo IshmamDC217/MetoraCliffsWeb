@@ -498,11 +498,16 @@ body {
 }
 
 /* Grid layout */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 20px;
+.gallery-grid {
+    width: 50vw;
 }
+
+@media screen and (max-width: 768px) {
+    .gallery-grid {
+        width: 90vw;
+    }
+}
+    
 
 /* Buttons */
 button {
