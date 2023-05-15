@@ -6,7 +6,7 @@ import { BiImage } from 'react-icons/bi';
 import { GiFire } from 'react-icons/gi';
 import React from 'react'
 
-const Navbar = () => {
+const Navbar = ({toggleSidebar}) => {
     const linkVariant = {
         hidden: { opacity: 0, x: -20 },
         visible: { opacity: 1, x: 0 },
@@ -62,7 +62,7 @@ const Navbar = () => {
                     <BiImage />
                 </motion.a>
 
-                <motion.div className='md:hidden' variants={iconVariant}>
+                <motion.div className='md:hidden' variants={iconVariant} onClick={toggleSidebar}>
                     <GiFire style={{fontSize: '26px'}}/>
                 </motion.div>
             </div>
