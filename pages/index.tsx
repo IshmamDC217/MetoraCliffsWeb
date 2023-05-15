@@ -9,11 +9,20 @@ import Skills from "../components/Skills"
 import SkillsMob from "../components/SkillsMob"
 import ParticlesBG from '../components/ParticlesBG'
 import ContactUs from '../components/ContactUs'
+import Sidemenu from '../components/Sidemenu'
 import Footer from '../components/Footer'
+import { useState } from 'react'
 
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div>
       <Head>
@@ -24,10 +33,29 @@ export default function Home() {
       </Head>
 
       <header>
-        <Navbar/>
+        <Navbar toggleSidebar={toggleSidebar} />
       </header>
 
       <main>
+        <button onClick={toggleSidebar}>Toggle Sidebar</button>
+        {isOpen && (
+          <div
+            style={{
+              position: 'fixed',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              backgroundColor: 'rgba(0, 0, 0, 0.5)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              zIndex: 9999,
+            }}
+          >
+            <Sidemenu isOpen={isOpen} toggleSidebar={toggleSidebar} />
+          </div>
+        )}
         <Banner />
         <p>&nbsp;</p>
         <Work />
@@ -46,6 +74,7 @@ export default function Home() {
         <SkillsMob />
         <ContactUs />
         <ParticlesBG />
+
         <Footer />
       </main>
 
