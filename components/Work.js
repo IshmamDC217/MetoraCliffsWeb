@@ -15,6 +15,7 @@ const Work = () => {
         <div className='shadow-lg flex flex-col gap-6 py-8 text-white' style={{backgroundColor:'#1a1b1fbe'}}>
 
           <div ref={ref} className={`${inView ? 'show' : null} intobs`} style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }} >
+            
             <a className="workimage" href="https://open.spotify.com/track/6QPgAgYlKjTrh6k0zd6rRZ?si=ROdex7jIRI-Wx3-MV9PLQA">
               <Image src={MCMC} alt="Single" className="image"/>
               <div className="caption px-3 py-1" >
