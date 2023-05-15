@@ -28,7 +28,6 @@ export default function Home() {
       <Head>
         <title>Metora Cliifs</title>
         <link rel="icon" href="/bannerpart.png" />
-        {/* <link rel="stylesheet" href="global.css" /> */}
 
       </Head>
 
@@ -40,6 +39,8 @@ export default function Home() {
         <button onClick={toggleSidebar}>Toggle Sidebar</button>
         {isOpen && (
           <div
+            className={`sidemenu-container ${isOpen ? 'open' : ''}`}
+            onClick={toggleSidebar}
             style={{
               position: 'fixed',
               top: 0,
