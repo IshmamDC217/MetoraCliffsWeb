@@ -45,6 +45,8 @@ export default function GalleryPage() {
             <Sidemenu isOpen={isOpen} toggleSidebar={toggleSidebar} />
           </div>
         )}
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <OurContent />
         <ParticlesBG />
         <p>&nbsp;</p>
