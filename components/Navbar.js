@@ -6,7 +6,7 @@ import { BiImage } from 'react-icons/bi';
 import { GiFire } from 'react-icons/gi';
 import React from 'react'
 
-const Navbar = ({toggleSidebar}) => {
+const Navbar = ({ toggleSidebar }) => {
     const linkVariant = {
         hidden: { opacity: 0, x: -20 },
         visible: { opacity: 1, x: 0 },
@@ -16,6 +16,10 @@ const Navbar = ({toggleSidebar}) => {
         hidden: { opacity: 0, y: -20 },
         visible: { opacity: 1, y: 0 },
     };
+
+    const handleFireIconClick = () => {
+        // Perform any additional actions you want when the fire icon is clicked
+      };
 
     return (
         <div className='bg-white fixed top-0 w-full z-10'>
@@ -63,7 +67,9 @@ const Navbar = ({toggleSidebar}) => {
                 </motion.a>
 
                 <motion.div className='md:hidden' variants={iconVariant} onClick={toggleSidebar}>
-                    <GiFire style={{fontSize: '26px'}}/>
+                    <motion.div className="popping-icon" onClick={handleFireIconClick}>
+                        <GiFire style={{ fontSize: '26px' }} />
+                    </motion.div>
                 </motion.div>
             </div>
         </div>
