@@ -111,7 +111,7 @@ const ContactUs = () => {
           <p>&copy; 2023 Dylan Tann, Metora Cliffs. All rights reserved</p>
         </div>
         <div className="dyllicense contact-footer text-white text-center">
-          <p>&nbsp; &copy; 2023 Dylan Tann, Metora Cliffs. All rights reserved</p>
+          <p>&copy; 2023 Dylan Tann, Metora Cliffs. All rights reserved</p>
           {/* <p>Designed and Developed by Ishmam Ahmed.</p> */}
         </div>
       </section>
