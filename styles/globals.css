@@ -643,11 +643,6 @@ button {
     position: absolute;
 }
 
-/* @media (max-width: 600px) {
-    .skillbar {
-        max-width: 140px;
-    }
-} */
 
 @media (max-width: 600px) {
     .skillcard {
@@ -658,16 +653,6 @@ button {
         display: none;
     }
 }
-
-/* .membercard {
-    margin-left: 10px;
-    margin-right: 10px;
-  } */
-/* 
-.slick-slide {
-    margin-left: 0.1px;
-    margin-right: 1px;
-} */
 
 .skillscontainer {
     display: flex;
@@ -759,41 +744,6 @@ button {
     }
 }
 
-/* @keyframes bounceAnimation {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
-  
-  @keyframes shakeAnimation {
-    0%, 100% {
-      transform: rotate(0);
-    }
-    10%, 30%, 50%, 70%, 90% {
-      transform: rotate(-10deg);
-    }
-    20%, 40%, 60%, 80% {
-      transform: rotate(10deg);
-    }
-  }
-
-.popping-icon {
-    animation-name: bounceAnimation;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
-.popping-icon {
-    animation-name: shakeAnimation;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-} */
-
 .popping-icon {
     animation: bounceAndShakeAnimation 1.5s infinite;
     animation-timing-function: ease-in-out;
@@ -826,12 +776,6 @@ button {
 .sidebar {
     background-color: #1d0565;
 }
-
-/* .navbarconfig {
-    background-color: white;
-    backdrop-filter: blur(30px);
-    opacity: 0.45;
-} */
 
 .navbarconfig {
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity));

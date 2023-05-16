@@ -54,7 +54,7 @@ export default function Home() {
         <SkillsMob />
         <ContactUs />
         <ParticlesBG />
-        <button onClick={toggleSidebar}>Toggle Sidebar</button>
+        <button onClick={toggleSidebar}></button>
         {isOpen && (
           <div
             className={`sidemenu-container ${isOpen ? 'open' : ''}`}
