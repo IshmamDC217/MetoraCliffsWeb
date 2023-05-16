@@ -88,9 +88,9 @@ const Banner = () => {
         position="bottom-right"
         color="green"
       />
-      <div className="absolute bottom-10 text-center arrow-bounce">
-        <p className='scd text-white'>Scroll Down</p>
-        <FontAwesomeIcon icon={faChevronDown} style={{ color: "white", blockSize: "40px" }} />
+      <div className="absolute bottom-9 text-center arrow-bounce">
+        <p className='scd text-white text-center'>Scroll Down</p>
+        <FontAwesomeIcon className='lg:mx-8' icon={faChevronDown} style={{ color: "white", blockSize: "40px" }} />
       </div>
     </div>
   );
