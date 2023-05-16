@@ -21,7 +21,7 @@ const AboutUs = () => {
   });
 
   return (
-    <section className='container mx-auto py-10 px-4 max-h-screen' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
+    <section className='aboutcontainersvg container mx-auto py-10 px-4 max-h-screen' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
       <Heading title="About Us" />
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
@@ -36,7 +36,7 @@ const AboutUs = () => {
             <p>&nbsp;</p>
             <h2 ref={ref2} className={`${inView2 ? 'show' : ''} intobssr`}></h2>
             <h2 className='text-lg font-bold mt-1 mb-6' style={{letterSpacing: '0.05em' }}>A Progressive Rock band based in Leeds</h2>
-            <p className={`${inView2 ? 'show' : ''} intobssr text-white text-xs lg:text-base`}>Fusing Prog Rock/Metal with video game synth melodies, Metora Cliffs appeal to Prog fanatics and casual listeners alike. Taking inspiration from modern & classic prog/video game music composition like that of Nintendo & Sega, their live shows and 3 singles showcase their enticing sound. The band consists of Dylan Tann (vocals), Ivan Knight (keyboard), Ish Ahmed & Alexander Kelk (guitars), Eddie Hyndes (bass) & Louis Walker (drums).</p>
+            <p className={`${inView2 ? 'show' : ''} intobssr text-white text-xs lg:text-base`}>Fusing Prog Rock/Metal with video game synth melodies, Metora Cliffs appeal to Prog fanatics and casual listeners alike. Taking inspiration from modern & classic prog/video game music composition like that of Nintendo & Sega, their live shows and 3 singles showcase their enticing sound. The band consists of Dylan Tann (vocals), Ish Ahmed & Alexander Kelk (guitars), Eddie Hyndes (bass) & Louis Walker (drums).</p>
           </div>
 
           <div className='flex items-center justify-between w-[300px]'>
