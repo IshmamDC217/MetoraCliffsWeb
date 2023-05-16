@@ -33,6 +33,48 @@ p {
     font-size: large;
 }
 
+@media (min-width: 500px) {
+
+    .mcContainersvg {
+        background-image: url('./svg/waves.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+    }
+}
+
+@media (min-width: 500px) {
+
+    .aboutcontainersvg {
+        background-image: url('./svg/circular.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+    }
+}
+
+@media (min-width: 500px) {
+
+    .contentcontainer {
+        background-image: url('./svg/bubbly.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+    }
+}
+
+@media (min-width: 500px) {
+
+    .contactcontainer {
+        background-image: url('./svg/tidal.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+    }
+}
+
+
+
 .mcContainer {
     position: relative;
 }
@@ -135,7 +177,7 @@ p {
 
 
 body {
-    background: #12161c;
+    background: #61c;
 }
 
 section {
@@ -513,7 +555,7 @@ body {
         width: 90vw;
     }
 }
-    
+
 
 /* Buttons */
 button {
@@ -696,9 +738,29 @@ button {
     z-index: 9999;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-  }
-  
-  .sidemenu-container.open {
+}
+
+.sidemenu-container.open {
     opacity: 1;
+}
+
+@keyframes popAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+      color: orange;
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   
+  .popping-icon {
+    animation-name: popAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+  }
