@@ -56,7 +56,7 @@ p {
 @media (min-width: 500px) {
 
     .contentcontainer {
-        background-image: url('./svg/bubbly.svg');
+        background-image: url('./svg/tidal2.svg');
         background-repeat: no-repeat;
         background-size: cover;
         opacity: 0.7;
@@ -759,14 +759,83 @@ button {
     }
 }
 
+/* @keyframes bounceAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes shakeAnimation {
+    0%, 100% {
+      transform: rotate(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: rotate(-10deg);
+    }
+    20%, 40%, 60%, 80% {
+      transform: rotate(10deg);
+    }
+  }
+
 .popping-icon {
-    animation-name: popAnimation;
-    animation-duration: 2s;
+    animation-name: bounceAnimation;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    cursor: pointer;
+}
+
+.popping-icon {
+    animation-name: shakeAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+} */
+
+.popping-icon {
+    animation: bounceAndShakeAnimation 1.5s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounceAndShakeAnimation {
+    0% {
+        transform: translateY(0) rotate(0);
+    }
+    50% {
+        transform: translateY(-10px) rotate(0);
+    }
+    60%,
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+    70%,
+    80% {
+        transform: translateY(0) rotate(-10deg);
+    }
+    90% {
+        transform: translateY(0) rotate(10deg);
+        color:rgba(241, 168, 50, 0.97)
+    }
+    95% {
+        transform: translateY(0) rotate(0);
+    }
 }
 
 .sidebar {
     background-color: #1d0565;
+}
+
+/* .navbarconfig {
+    background-color: white;
+    backdrop-filter: blur(30px);
+    opacity: 0.45;
+} */
+
+.navbarconfig {
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    backdrop-filter: blur(30px);
+    --tw-bg-opacity:0.45;
+  ;
 }
