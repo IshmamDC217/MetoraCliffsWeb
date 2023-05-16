@@ -10,7 +10,7 @@ const Work = () => {
   const { ref, inView, entry } = useInView()
 
   return (
-    <section className='mcContainer mx-auto' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
+    <section className='mcContainersvg mx-auto' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
       <Heading title="Singles"></Heading>
         <div className='shadow-lg flex flex-col gap-6 py-8 text-white' style={{backgroundColor:'#1a1b1fbe'}}>
 
