@@ -5,7 +5,7 @@ import { AiFillCloseCircle } from 'react-icons/ai';
 const Sidemenu = ({ isOpen, toggleSidebar }) => {
   const menuVariants = {
     hidden: {
-      x: '-100%',
+      x: '100%',
     },
     visible: {
       x: 0,
@@ -35,7 +35,7 @@ const Sidemenu = ({ isOpen, toggleSidebar }) => {
 
   return (
     <motion.div
-      className={`w-screen h-screen fixed top-0 left-0 bg-gray-800 z-20 text-white grid place-items-center`}
+      className={`sidebar w-screen h-screen fixed top-0 left-0 bg-blue-400 z-20 text-white grid place-items-center`}
       initial="hidden"
       animate={isOpen ? 'visible' : 'hidden'}
       variants={menuVariants}
