@@ -18,12 +18,11 @@ const Navbar = ({ toggleSidebar }) => {
     };
 
     const handleFireIconClick = () => {
-        // Perform any additional actions you want when the fire icon is clicked
       };
 
     return (
-        <div className='bg-white fixed top-0 w-full z-10'>
-            <div className='container mx-auto flex justify-between items-center py-4 px-4 ' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
+        <div className='navbarconfig fixed top-0 w-full z-10'>
+            <div className='container mx-auto flex justify-between items-center py-4 px-4' style={{ fontFamily: 'Adventure Subtitles', sansSerif: true }}>
                 <div className='max-w-xs'> <Image src={corner} width="300px" height="300px" alt="Metora Cliffs" /> </div>
                 <div className='hidden md:flex gap-6'>
                     <p>&nbsp;</p>
@@ -61,7 +60,7 @@ const Navbar = ({ toggleSidebar }) => {
                 </div>
                 <p>&nbsp;</p>
 
-                <motion.a href="#" className='hidden md:flex border px-2 py-2 mx-2 items-center gap-2' whileHover={{ scale: 1.08, backgroundColor: '#217ea0', color: 'white' }} variants={iconVariant}>
+                <motion.a href="#" className='hidden md:flex border-black px-2 py-2 mx-2 items-center gap-2' whileHover={{ scale: 1.08, backgroundColor: '#217ea0', color: 'white' }} variants={iconVariant}>
                     Upcoming Gigs!
                     <BiImage />
                 </motion.a>

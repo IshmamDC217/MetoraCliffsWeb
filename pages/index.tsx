@@ -36,6 +36,24 @@ export default function Home() {
       </header>
 
       <main>
+        <Banner />
+        <p>&nbsp;</p>
+        <Work />
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <AboutUs />
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <OurContent />
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <Skills />
+        <SkillsMob />
+        <ContactUs />
+        <ParticlesBG />
         <button onClick={toggleSidebar}>Toggle Sidebar</button>
         {isOpen && (
           <div
@@ -57,25 +75,6 @@ export default function Home() {
             <Sidemenu isOpen={isOpen} toggleSidebar={toggleSidebar} />
           </div>
         )}
-        <Banner />
-        <p>&nbsp;</p>
-        <Work />
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <AboutUs />
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <OurContent />
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <Skills />
-        <SkillsMob />
-        <ContactUs />
-        <ParticlesBG />
-
         <Footer />
       </main>
 
