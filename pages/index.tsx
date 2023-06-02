@@ -28,6 +28,7 @@ export default function Home() {
       <Head>
         <title>Metora Cliifs</title>
         <link rel="icon" href="/bannerpart.png" />
+        <link rel="stylesheet" href="../atropos/atropos.css" />
 
       </Head>
 

@@ -15,6 +15,7 @@ import { useInView } from 'react-intersection-observer';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
+import { HiArrowSmLeft, HiArrowSmRight } from 'react-icons/hi';
 
 
 const animationVariants = {
@@ -70,7 +71,12 @@ const Skills = () => {
 
             <Heading title="Members & Stats" />
             <p>&nbsp;</p>
-            <p className='text-gray-400 -mt-10 mb-1'>Meet the Band</p>
+            <p className='text-gray-400 -mt-10 mb-4'>Meet the Band</p>
+            <strong className="text-white mb-1 text-lg" style={{letterSpacing: '0.05em' }}>
+                <span className="arrowicon"><HiArrowSmLeft /></span>
+                Swipe
+                <span className="arrowicon"><HiArrowSmRight /></span>
+            </strong>
 
             <motion.div
                 ref={ref}
@@ -99,7 +105,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Shred</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -107,7 +113,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Improv</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -115,7 +121,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Fingering</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -123,7 +129,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Groove</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -131,7 +137,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div onMouseEnter={() => setShowEasterEgg1(true)}
                                             onMouseLeave={() => setShowEasterEgg1(false)}>
                                             <p>Pinneapple on Pizza</p>
@@ -141,7 +147,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Blast Beat</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -249,7 +255,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Shred</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -257,7 +263,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Improv</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -265,7 +271,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Fingering</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -273,7 +279,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Groove</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -281,7 +287,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Pinneapple on Pizza</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -289,7 +295,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Blast Beat</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -323,7 +329,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Shred</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -331,7 +337,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Improv</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -339,7 +345,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Fingering</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -347,7 +353,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Groove</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -355,7 +361,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Pinneapple on Pizza</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -363,7 +369,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Blast Beat</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -395,7 +401,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Shred</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -403,7 +409,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Improv</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -411,7 +417,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Fingering</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -419,7 +425,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Groove</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -427,7 +433,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Pinneapple on Pizza</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>
@@ -435,7 +441,7 @@ const Skills = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div>
                                             <p>Blast Beat</p>
                                             <div className='relative bg-gray-400 h-[6px] mt-1'>

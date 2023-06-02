@@ -783,3 +783,13 @@ button {
     --tw-bg-opacity:0.45;
   ;
 }
+
+.my-atropos {
+    width: 320px;
+    height: 160px;
+  }
+
+  .arrowicon {
+    display: inline-block;
+    margin: 0 5px;
+  }
