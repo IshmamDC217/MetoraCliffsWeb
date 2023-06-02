@@ -72,9 +72,9 @@ const Skills = () => {
             <Heading title="Members & Stats" />
             <p>&nbsp;</p>
             <p className='text-gray-400 -mt-10 mb-4'>Meet the Band</p>
-            <strong className="text-white mb-1 text-lg" style={{letterSpacing: '0.05em' }}>
+            <strong className="text-white mb-1 text-xl" style={{letterSpacing: '0.05em' }}>
                 <span className="arrowicon"><HiArrowSmLeft /></span>
-                Swipe
+                <span className="arrowicon">Swipe</span>
                 <span className="arrowicon"><HiArrowSmRight /></span>
             </strong>
 
