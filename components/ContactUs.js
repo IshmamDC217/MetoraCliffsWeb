@@ -76,26 +76,24 @@ const ContactUs = () => {
                 <textarea id="message" rows="4" className="border border-gray-300 p-2 rounded"></textarea>
               </div>
               <button
-                variants={buttonVariants}
-                whileHover="hover"
                 type="submit"
                 className="bg-gray-800 text-white py-2 px-4 rounded mt-6"
               >
                 Send Message
               </button>
-              <div className="contact-socials text-white flex justify-center items-center gap-5 mt-10">
-                <p>Alternatively, you can contact us on:</p>
-                <a href="https://facebook.com/metoracliffs" rel="noopener noreferrer">
-                  <FaFacebook />
-                </a>
-                <a href="https://instagram.com/metoracliffsmusic" rel="noopener noreferrer">
-                  <FaInstagram />
-                </a>
-                <a href="https://tiktok.com/@metoracliffs" rel="noopener noreferrer">
-                  <FaTiktok />
-                </a>
-              </div>
             </form>
+            <div className="contact-socials text-white flex justify-center items-center gap-5 mt-10">
+              <p>Alternatively, you can contact us on:</p>
+              <a href="https://facebook.com/metoracliffs" rel="noopener noreferrer">
+                <FaFacebook />
+              </a>
+              <a href="https://instagram.com/metoracliffsmusic" rel="noopener noreferrer">
+                <FaInstagram />
+              </a>
+              <a href="https://tiktok.com/@metoracliffs" rel="noopener noreferrer">
+                <FaTiktok />
+              </a>
+            </div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <div className="license contactus-image max-w-sm w-half">
