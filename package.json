@@ -24,6 +24,7 @@
     "framer-motion": "^10.12.2",
     "intersection-observer": "^0.12.2",
     "masonry-layout": "^4.2.2",
+    "netlify": "^13.1.7",
     "next": "13.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
