@@ -49,7 +49,7 @@ const ContactUs = () => {
         </h1>
         <div className="contact-form-and-image flex flex-wrap justify-center mt-10 gap-10 mr-1.5 ml-1">
           <motion.div className="contactus bg-[#58629c] p-14 py-16 rounded-md border w-[75%] mb-10" whileHover={{ y: -5 }}>
-            <h2 className="text-2xl text-white font-bold mb-6">Don't worry, we don't bite!</h2>
+            <h2 className="text-2xl text-white font-bold mb-6">Get in touch with us!</h2>
             <form name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="contact" />
               <motion.div whileHover={{ scale: 1.02 }} className="flex flex-col mb-3">
