@@ -50,7 +50,7 @@ const ContactUs = () => {
         <div className="contact-form-and-image flex flex-wrap justify-center mt-10 gap-10 mr-1.5 ml-1">
           <div className="contactus bg-[#58629c] p-14 py-16 rounded-md border w-[75%] mb-10" whileHover={{ y: -5 }}>
             <h2 className="text-2xl text-white font-bold mb-6">Get in touch with us!</h2>
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
               <input type="hidden" name="form-name" value="contact" />
               <div whileHover={{ scale: 1.02 }} className="flex flex-col mb-3">
                 <label htmlFor="name" className="text-white mb-1">
