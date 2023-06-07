@@ -28,7 +28,7 @@ const Gallery = () => {
   const renderImages = (images) => (
     <div className='gallery-grid'>
       <ResponsiveMasonry
-        columnsCountBreakPoints={{ 350: 1, 600: 2, 900: 3, 1100: 5 }}
+        columnsCountBreakPoints={{ 350: 1, 400: 2, 900: 3, 1100: 5 }}
       >
         <Masonry style={{alignItems: "baseline"}} gutter="0.5em">
           {images.map((image, index) => (
@@ -82,7 +82,7 @@ const Gallery = () => {
               transition={{ duration: 0.5 }}
             >
               <p className='text-white text-center mb-4'>Check out our <strong className='text-[20px] text-[#0290bc]'>Artwork</strong> or our <strong className='text-[20px] text-[#b267e1]'>Photography</strong> by clicking one of the two options below:</p>
-              <div className='flex justify-center'>
+              <div className='artwork flex justify-center'>
                 <button
                   className='artbtn bg-[#0279ac] text-white text-2xl rounded-lg hover:bg-blue-800 transition duration-200 ease-in'
                   onClick={() => handleCategoryClick('artwork')}
