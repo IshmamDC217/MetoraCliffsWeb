@@ -96,11 +96,11 @@ const ContactUs = () => {
           </div>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <div className="license contactus-image max-w-sm w-half">
-              <Image src={MCbandpic} alt="" className="rounded-lg mb-10" />
+              <Image src={MCbandpic} className="mb-10" />
             </div>
 
-            <div className="license contactus-image max-w-sm w-half">
-              <Image src={nbandpic} alt="" className="rounded-lg" />
+            <div className="license contactus-image2 max-w-sm w-half">
+              <Image src={nbandpic}/>
             </div>
           </div>
         </div>
