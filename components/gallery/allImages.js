@@ -7,6 +7,8 @@ import c from './c.jpg';
 import d from './d.jpg';
 import e from './e.jpg';
 import f from './f.jpg';
+import f2 from './f2.jpg';
+import f3 from './f3.jpg';
 import g from './g.jpg';
 import h from './h.jpg';
 import i from './i.jpg';
@@ -32,7 +34,8 @@ import bb from './bb.jpg';
 import cc from './cc.jpg';
 import dd from './dd.jpg';
 import ee from './ee.jpg';
-
+import ff from './ff.jpg';
+import gg from './gg.jpg';
 
 export const artworkImages = [
   { src: MCMC, title: 'Project Title MCMC' },
@@ -48,6 +51,8 @@ export const artworkImages = [
 
 export const photographyImages = [
   { src: f, title: 'Project Title F' },
+  { src: f2, title: 'Project Title F2' },
+  { src: f3, title: 'Project Title F3' },
   { src: g, title: 'Project Title G' },
   { src: h, title: 'Project Title H' },
   { src: i, title: 'Project Title I' },
@@ -73,5 +78,7 @@ export const photographyImages = [
   { src: cc, title: 'Project Title CC' },
   { src: dd, title: 'Project Title DD' },
   { src: ee, title: 'Project Title EE' },
+  { src: ff, title: 'Project Title FF' },
+  { src: gg, title: 'Project Title GG' },
 ];
 
