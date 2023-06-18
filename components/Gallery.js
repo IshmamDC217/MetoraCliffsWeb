@@ -28,7 +28,7 @@ const Gallery = () => {
   const renderImages = (images) => (
     <div className='gallery-grid'>
       <ResponsiveMasonry
-        columnsCountBreakPoints={{ 350: 2, 400: 3, 900: 3, 1100: 5 }}
+        columnsCountBreakPoints={{ 350: 3, 400: 3, 900: 3, 1100: 5 }}
       >
         <Masonry style={{alignItems: "baseline"}} gutter="0.5em">
           {images.map((image, index) => (
@@ -67,7 +67,7 @@ const Gallery = () => {
           <motion.button
             className='backbtn absolute top-20 mt-20 bg-gray-700 text-white text-sm px-4 py-2 rounded-lg hover:bg-gray-800 transition duration-200 ease-in'
             onClick={() => setSelectedCategory(null)}
-            style={{ zIndex: 10 }}
+            style={{ zIndex: 20 }}
           >
             Go Back
           </motion.button>
@@ -130,7 +130,7 @@ const Gallery = () => {
               <div className='bg-black p-2'>
                 <Image src={selectedImage.src} alt={selectedImage.title} />
               </div>
-              <p className='text-white text-center mt-2'>{selectedImage.title}</p>
+              <p className='text-white text-center mt-1 mb-5'>{selectedImage.title}</p>
             </motion.div>
           )}
         </AnimatePresence>
