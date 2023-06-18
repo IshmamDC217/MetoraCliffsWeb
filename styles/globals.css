@@ -553,7 +553,8 @@ body {
 }
 
 .gallery-grid {
-    width: 50vw;
+    width: auto;
+    padding: 2%;
 }
 
 @media screen and (max-width: 768px) {
