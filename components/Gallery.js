@@ -28,7 +28,7 @@ const Gallery = () => {
   const renderImages = (images) => (
     <div className='gallery-grid'>
       <ResponsiveMasonry
-        columnsCountBreakPoints={{ 350: 1, 390: 2, 900: 3, 1100: 5 }}
+        columnsCountBreakPoints={{ 350: 2, 400: 3, 900: 3, 1100: 5 }}
       >
         <Masonry style={{alignItems: "baseline"}} gutter="0.5em">
           {images.map((image, index) => (
