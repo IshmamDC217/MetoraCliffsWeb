@@ -62,15 +62,15 @@ const Footer = () => {
             <p className="text-white text-xl font-bold text-center">Metora Cliffs</p>
           </div>
           <p className="moblicense text-gray-400 text-sm mr-0 lg:mr-10 mt-0 lg:mt-4 text-center">&copy; 2023 Licensed by Ishmam Ahmed. All rights reserved</p>
-          <div className="flex space-x-4">
+          <div className="flex space-x-7 py-8">
             <a href="#" className="license text-white hover:text-gray-400 transition duration-300" onClick={openTerms}>
               Terms of Use
             </a>
             <a href="#" className="license text-white hover:text-gray-400 transition duration-300" onClick={openPrivacyPolicy}>
               Privacy Policy
             </a>
-            <a href="#" className="ishlicense text-white hover:text-gray-400 transition duration-300 text-center">
-              &copy; 2023 Licensed by Dylan Tann
+            <a href="#" className="ishlicense text-white hover:text-gray-400 transition duration-300 flex text-center">
+              &copy; 2023 Licensed by Ishmam Ahmed
             </a>
           </div>
         </div>
