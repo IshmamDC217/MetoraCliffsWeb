@@ -7,7 +7,7 @@ Metora Cliffs Web is the official website for Metora Cliffs, a video game-inspir
 - Next.js for server-rendered React, providing fast initial load times and SEO benefits
 - Tailwind CSS for a customizable and responsive design system
 - Framer Motion for smooth and performant animations
-- Intersection Observer API for efficiently handling scrolling events and triggering animations
+- Intersection Observer API for efficiently handling scrolling events and triggering animations 
 - Particle.js for creating interactive and dynamic particle systems
 - React Spring for physics-based animations
 - React Toastify for highly customizable and responsive toast notifications
