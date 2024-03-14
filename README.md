@@ -25,7 +25,7 @@ Metora Cliffs Web is the official website for Metora Cliffs, a video game-inspir
    ```bash
    git clone https://github.com/IshmamDC217/MetoraCliffsWeb.git
    
-2. Navigate to the project directory:
+2. Navigate to the project directory, unless you're already there:
 
    ```bash
    cd MetoraCliffsWeb
