@@ -1,5 +1,7 @@
 # Metora Cliffs Web
 
+- THE SITE IS CURRENTLY GETTING REVAMPED
+
 Metora Cliffs Web is the official website for Metora Cliffs, a video game-inspired progressive metal band that composes songs with a Nintendo-esque/gamey vibe. The website is developed with a video game theme to reflect the band's unique style and energy. It is built using modern web technologies such as Next.js, React, and Tailwind CSS, and incorporates a variety of cutting-edge features like Framer Motion, Intersection Observers, Particle.js, React Spring, and React Toastify for a visually stunning and engaging user experience. The website is optimized for both desktop and mobile devices, ensuring that users have a consistent experience across all platforms.
 
 ## Features
